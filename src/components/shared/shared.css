@@ -1,0 +1,6 @@
+/* font */
+@font-face {font-family: "ws-regular";src: url('/fonts/WorkSans-Regular.ttf') format("truetype");}
+@font-face {font-family: "Scheherazade-regular";src: url('/fonts/Scheherazade-Regular.ttf') format("truetype");}
+
+.font_wsRegular{font-family: 'ws-regular'!important;}
+.font_Scheherazade{ font-family: 'Scheherazade-regular'!important;}

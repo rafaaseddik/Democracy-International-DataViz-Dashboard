@@ -1,0 +1,50 @@
+
+
+      .svgUnderConstruction {
+        height: 100%;
+        width: 100%;
+        margin-top: 25vh;
+      }
+
+      .star {
+        fill: #f9e2b7;
+      }
+      .maincircle {
+        fill: #248077;
+      }
+      .dashedline {
+        fill: none;
+        stroke: #c82754;
+        stroke-dasharray: 11.94 11.94;
+      }
+
+      .inring{
+        fill: none;
+        stroke: #f9e2b7;
+      }
+
+      .dashedline, .inring, .hammerhead, .handle {
+        stroke-miterlimit: 10;
+      }
+      .reddot {
+        fill: #c82754;
+      }
+    
+      .hammerhead{
+        fill: #ddd;
+      }
+      .handle {
+        fill: #f7bb21;
+      }
+
+      .textcontainer{
+        display: block;
+        width: 400px;
+        margin: auto;
+        text-align: center;
+      }
+      .centerUnderCons {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+    }

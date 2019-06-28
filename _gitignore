@@ -1,0 +1,6 @@
+node_modules
+dist/static/*.js
+webpack.*
+backend
+src/components/crowdsourcing
+data

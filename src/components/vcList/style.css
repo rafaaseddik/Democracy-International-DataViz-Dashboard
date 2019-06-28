@@ -1,0 +1,213 @@
+   /*two layers ontop of eachother*/
+   .container_row {
+    height: auto;
+    margin: 0;
+    position: relative;
+}
+
+.layer1 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 50px;
+}
+
+.layer2 {
+    position: absolute;
+    background-color:white;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    height: 110vh;
+    width:99%
+}
+/*AutoSuggest title*/
+.gtco-heading {
+margin-bottom: 5em;
+}
+.gtco-heading.gtco-heading-sm {
+margin-bottom: 2em;
+}
+.gtco-heading h2 {
+font-size: 36px;
+margin-bottom: 10px;
+line-height: 1.5;
+font-weight: bold;
+color: #000;
+}
+.gtco-heading p {
+font-size: 18px;
+line-height: 1.5;
+color: #828282;
+}
+.titleTop{
+margin-top: 4em;
+}
+/*footer*/
+.footer {
+position: absolute;
+bottom: 0;
+width: 97vw;
+height: 150px;
+background-color:rgba(17, 17, 17, 0.04);
+text-align: center;
+}
+
+.footercontainer{
+margin-top: 50px;
+color: #fff;
+width: 100%;
+}
+.btn-space {
+margin-right: 5px;
+}
+
+.fa {
+opacity: 0.7;
+transition: 1s;
+-webkit-transition: 1s;
+}
+
+.fa:hover{
+opacity: 1;
+transition: 1s;
+-webkit-transition: 1s;
+}
+.holder {
+position: absolute;
+margin: 7px 8px;
+color: #A3A3A3;
+cursor: auto;
+font-family: Helvetica;
+font-size: 11pt;
+z-index: 1;
+}
+/*Slider React*/
+
+.input-range__label{
+font-size: 1.1rem !important
+}
+.input-range__label--value { 
+top: -2.3rem !important
+}
+/*style popu*/
+.popupinfo{
+height:11rem !important;
+}
+/*POPUPSTYLE*/
+/*two blocks ontop of eachother*/
+#container1, #container2 {
+padding: 0 0 0 ;
+width: 100%;
+}
+.blockright {
+width: 45%;
+position: relative;
+display:inline-block;
+}
+.blockleft {
+width: 30%;
+position: relative;
+display:inline-block;
+}
+.centerName{
+margin-left: 50px
+}
+/*square brew*/
+.square {
+width: 24px;
+height: 24px;
+float:left;
+margin-left: 1px;
+    border: 1px solid;    
+    stroke: #333;
+stroke-width: .5px;
+}
+#squareBrew{
+margin-top: 15px;
+display: flex;
+margin-left: 12%;
+}
+/*Place loader in the middle ->autosuggest*/
+.react-Loader{
+margin-left: 13% !important;
+}
+/*style of the map key text*/
+.blockrightKey {
+width: 55%;
+position: relative;
+display:inline-block;
+}
+.blockleftKey{
+width: 20%;
+position: relative;
+display: inline-block;
+}
+.infoLeg {
+background-color: white;
+width: 27%;
+}
+/*Stat On hover info*/
+.one{
+position:absolute;
+right:10px;
+top:160px;
+z-index:1000;
+width: 14%;
+background-color: white
+}
+/*map key of statistics page*/
+/*    #legend { display: flex; display: -webkit-box; padding-top: 7px; width: 23vw}
+.color-key {
+  background: linear-gradient(to right,
+    hsl(5, 69%, 54%) 0%,
+    hsl(29, 71%, 51%) 17%,
+    hsl(54, 74%, 47%) 33%,
+    hsl(78, 76%, 44%) 50%,
+    hsl(102, 78%, 41%) 67%,
+    hsl(127, 81%, 37%) 83%,
+    hsl(151, 83%, 34%) 100%);
+  flex: 1;
+  -webkit-box-flex: 1;
+  margin: 0 5px;
+  text-align: left;
+  font-size: 1.0em;
+  line-height: 1.0em;
+}*/
+.legend {
+line-height: 18px;
+color: #555;
+}
+.legend i {
+width: 18px;
+height: 18px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+.infoLegendStat {
+padding: 6px 8px;
+background: white;
+background: rgba(255,255,255,0.8);
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border-radius: 5px;
+}
+.info h4 {
+margin: 0 0 5px;
+color: #777;
+}
+/*Loader*/
+.loader {
+border: 16px solid #f3f3f3; /* Light grey */
+border-top: 16px solid #3498db; /* Blue */
+border-radius: 50%;
+width: 120px;
+height: 120px;
+animation: spin 2s linear infinite;
+
+}
+.loader2{
+margin-left: "48%";
+margin-top: "48%"
+}

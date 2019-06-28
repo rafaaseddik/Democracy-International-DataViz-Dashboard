@@ -1,0 +1,142 @@
+/* Clearing floats */
+/* .cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+} */
+
+/* Mini reset, no margins, paddings or bullets */
+.menuZ,
+.submenuZ {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 100;
+}
+
+/* Main level */
+.menuZ {			
+  margin: auto;
+  margin-bottom: 13vh;
+  width: 800px;
+  /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;	
+}
+
+.menuZ > li {
+  background: #34495e;
+  float: left;
+  position: relative;
+  transform: skewX(25deg);
+}
+
+.menuZ a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, Helvetica;
+  font-size: 14px;
+}		
+
+.menuZ li:hover {
+  background: #FF4763;
+}		
+.menuZ .active {
+  background: #FF6B45;
+}	
+.menuZ > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+
+/* Dropdown */
+.submenuZ {
+  position: absolute;
+  width: 200px;
+  left: 50%; margin-left: -100px;
+  transform: skewX(-25deg);
+  transform-origin: left top;
+}
+
+.submenuZ li {
+  background-color: #34495e;
+  position: relative;
+  overflow: hidden;		
+}						
+
+.submenuZ > li > a {
+  padding: 1em 2em;			
+}
+
+.submenuZ > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;			
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);			
+}		
+
+/* Odd stuff */
+.submenuZ > li:nth-child(odd){
+  transform: skewX(-25deg) translateX(0);
+}
+
+.submenuZ > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+
+.submenuZ > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}				
+
+/* Even stuff */
+.submenuZ > li:nth-child(even){
+  transform: skewX(25deg) translateX(0);
+}
+
+.submenuZ > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+
+.submenuZ > li:nth-child(even)::after {
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+
+/* Show dropdown */
+.submenuZ,
+.submenuZ li {
+  opacity: 0;
+  visibility: hidden;			
+}
+
+.submenuZ li {
+  transition: .2s ease transform;
+}
+
+.menuZ > li:hover .submenuZ,
+.menuZ > li:hover .submenuZ li {
+  opacity: 1;
+  visibility: visible;
+}		
+
+.menuZ > li:hover .submenuZ li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);			
+}
+
+.menuZ > li:hover .submenuZ li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px);			
+}
