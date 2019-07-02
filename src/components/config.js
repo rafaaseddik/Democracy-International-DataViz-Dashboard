@@ -1,6 +1,7 @@
 module.exports = {
 
 	'apiUrl':'http://inscription.tunisieelection.org:8080',	
+	'localApiUrl':'http://localhost:8081',
 	//'apiUrl':'http://localhost:3000',
 	'crowdUrl':'http://localhost:3100',
 	'initShape':{

@@ -273,10 +273,10 @@ class Geocode extends Component {
         this.setState({ GeocodeOption: event.target.value });
     }
     /* ---------------------------------------- */
-    scrollToBottom = () => {
+    /*scrollToBottom = () => {
 
 
-      }
+      }*/
     ChosenGouv(chosenGov) {
         console.log(window);
         

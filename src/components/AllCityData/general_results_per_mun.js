@@ -14,6 +14,7 @@ var general_results_per_mun =
     },
     "beja": { REG_NUMBER: '42,195', MALE_REG: '21,747', FEMALE_REG: '20,448',VALID_VOTES:'10,489',Invalid_votes:'900',TURNOUT:'27%',SEATS:'30',LIST_NUMBER:'10' ,lat: 36.8, lon: 9.22 },
     "tibar": { REG_NUMBER: '5,358', MALE_REG: '2,861', FEMALE_REG: '2,497',VALID_VOTES:'1,319',Invalid_votes:'167',TURNOUT:'27%',SEATS:'18',LIST_NUMBER:'3' ,lat: 36.5, lon: 9.09 },
+    "nabeul": { REG_NUMBER: '5,358', MALE_REG: '2,861', FEMALE_REG: '2,497',VALID_VOTES:'1,319',Invalid_votes:'167',TURNOUT:'27%',SEATS:'18',LIST_NUMBER:'3' ,lat: 36.45, lon: 10.73 },
 
 }
 

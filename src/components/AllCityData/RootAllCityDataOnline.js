@@ -23,8 +23,7 @@ export default class RootHome extends Component {
         let municipalityName = (this.props.location.pathname).substring(1);
 
         //Load the shapefile
-        let qString = `${config.localApiUrl}/api/shape/sectors?municipalityName=${municipalityName}`;
-        //let qString = `${config.apiUrl}/api/shape/${municipalityName}_sectors`;
+        let qString = `${config.apiUrl}/api/shape/${municipalityName}_sectors`;
         axios({
             method: 'get',
             url: qString,
@@ -37,15 +36,14 @@ export default class RootHome extends Component {
         })
             .then(response => {
                 console.log('_sectors', response.data.data);
-                this.setState({shape_sector: response.data.data});
+                this.setState({shape_sector: JSON.parse(response.data.data)});
             })
             .catch(function (error) {
                 console.log('error 1');
             });
 
         //load the registration data
-        let qString2 = `${config.localApiUrl}/api/registration/pollingData?municipalityName=${municipalityName}`;
-        //let qString2 = `${config.apiUrl}/api/shape/${municipalityName}_d_reg_data`;
+        let qString2 = `${config.apiUrl}/api/shape/${municipalityName}_d_reg_data`;
         axios({
             method: 'get',
             url: qString2,
@@ -58,15 +56,14 @@ export default class RootHome extends Component {
         })
             .then(response => {
                 console.log('_d_reg_data----', response.data.data);
-                this.setState({registrationData: response.data.data});
+                this.setState({registrationData: JSON.parse(response.data.data)});
             })
             .catch(function (error) {
                 console.log('hhhhh2');
             });
 
         //load the results
-        let qString3 = `${config.localApiUrl}/api/registration/resultsData?municipalityName=${municipalityName}`;
-        //let qString3 = `${config.apiUrl}/api/shape/${municipalityName}_results per list`;
+        let qString3 = `${config.apiUrl}/api/shape/${municipalityName}_results per list`;
         axios({
             method: 'get',
             url: qString3,
@@ -80,7 +77,7 @@ export default class RootHome extends Component {
         })
             .then(response => {
                 console.log('resultsData------', response.data.data);
-                this.setState({resultsData: response.data.data});
+                this.setState({resultsData: JSON.parse(response.data.data)});
             })
             .catch(function (error) {
                 console.log('error results per list');

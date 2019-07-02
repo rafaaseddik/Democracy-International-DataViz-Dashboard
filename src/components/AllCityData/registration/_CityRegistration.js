@@ -14,19 +14,19 @@ export default class CityRegistration extends Component {
     }
 
     handleRadioFilter(filter, e) {
-        let checked = [false, false, false, false, false]
+        let checked = [false, false, false, false, false];
         let transition = this.state.transition + 1;
         checked[parseInt(e.target.value)] = true;
         this.setState({ filter, checked, transition });
     }
     render() {
-        const GENERAL = <Translate type='text' content='cityData.general' />//general registration
-        const PERVC = <Translate type='text' content='cityData.pervc' />//registration per vc
-        const REG_NUMBER = <Translate type='text' content='cityData.regnumber' />//registration number
-        const MALE_REG = <Translate type='text' content='cityData.maleReg' />//registration number
-        const FEMALE_REG = <Translate type='text' content='cityData.femaleReg' />//registration number
-        const REGISTERED_PER_GENDER = <Translate type='text' content='cityData.reg_per_gender' />//registration number
-        const REGISTERED_PER_AGE = <Translate type='text' content='cityData.reg_per_age' />//registration number
+        const GENERAL = <Translate type='text' content='cityData.general' />; //general registration
+        const PERVC = <Translate type='text' content='cityData.pervc' />; //registration per vc
+        const REG_NUMBER = <Translate type='text' content='cityData.regnumber' />; //registration number
+        const MALE_REG = <Translate type='text' content='cityData.maleReg' />; //registration number
+        const FEMALE_REG = <Translate type='text' content='cityData.femaleReg' />; //registration number
+        const REGISTERED_PER_GENDER = <Translate type='text' content='cityData.reg_per_gender' />; //registration number
+        const REGISTERED_PER_AGE = <Translate type='text' content='cityData.reg_per_age' />; //registration number
 
         return (
             <div >
