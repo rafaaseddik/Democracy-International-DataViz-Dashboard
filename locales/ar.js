@@ -1,7 +1,9 @@
 module.exports = {
     title:{
         title: 'توزيع السكان والمنشاءات الرياضية',
-         title2:'حسب الدوائر - بلدية تونس'
+         title2:'حسب الدوائر - بلدية تونس',
+        chooseState:'Please choose a state',
+        chooseMunicipality:'Please choose a municipality'
     },
     navbar: {
         viz:'Viz',

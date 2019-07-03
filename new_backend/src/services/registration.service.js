@@ -1,6 +1,6 @@
 const Registration = require('../models/registration.model').model
 
-const MIXED_CLEAN =  [
+const MIXED_CLEAN = [
     {
         "gov_fr": "Kasserine",
         "mun_name1": "العيون",
@@ -6295,13 +6295,19 @@ const MIXED_CLEAN =  [
     }
 ]
 
-module.exports={
-    pushDataToDb: function(){
-        MIXED_CLEAN.map(municipality=>{
-            municipality.TURNOUT = (municipality.total_vote/ municipality.REG_NUMBER)*100 ;
-            console.log(municipality.gov_fr + " " + municipality.mun_fr + " "+ municipality.TURNOUT)
+module.exports = {
+    pushDataToDb: function () {
+        MIXED_CLEAN.map(municipality => {
+            municipality.TURNOUT = (municipality.total_vote / municipality.REG_NUMBER) * 100;
+            console.log(municipality.gov_fr + " " + municipality.mun_fr + " " + municipality.TURNOUT)
             var newMun = new Registration(municipality);
             newMun.save().mun_fr;
         });
+    },
+    getDataByMunicipailityNameFr: function (munNameFr) {
+        return new Promise((resolve, reject) => {
+            console.log(munNameFr)
+            Registration.find({mun_fr: munNameFr}).then(result => resolve(result)).catch(err => reject(err));
+        })
     }
 }

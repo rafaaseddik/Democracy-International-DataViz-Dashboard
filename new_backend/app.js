@@ -47,5 +47,4 @@ app.get('/',(req,res)=>{
     })
 });
 
-registrationService.pushDataToDb()
 module.exports = app;

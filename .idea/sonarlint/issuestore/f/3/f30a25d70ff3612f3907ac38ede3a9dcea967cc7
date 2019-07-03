@@ -1,0 +1,16 @@
+
+Jjavascript:S1128".Remove this unused import of 'GeoRadioButton'.(ãÆ³Ä
+Yjavascript:S1854/"=Remove this useless assignment to local variable "shapeCoord"(›ÒÖ¤
+Ljavascript:S1128"+Remove this unused import of 'AutoSuggest'.(¬•“ûÿÿÿÿ
+Ljavascript:S1128	"+Remove this unused import of 'counterpart'.(ÆÄ­òÿÿÿÿÿ
+‰javascript:S4165Ù"gReview this useless assignment: "menuStyle" already holds the assigned value along all execution paths.(µğ–ÿÿÿÿÿ
+ejavascript:UnusedVariableÚ":Remove the declaration of the unused 'chosenViz' variable.(À³ºÆùÿÿÿÿ
+Ejavascript:S1128")Remove this unused import of 'SearchOne'.(Êóúı
+Gjavascript:S1128"+Remove this unused import of 'RadioButton'.(Ğ‡–Œ
+Hjavascript:S1128",Remove this unused import of 'RaisedButton'.(Åæ—Œ
+Yjavascript:S1854"=Remove this useless assignment to local variable "mapElement"(´Àï
+^javascript:S1854Ú"<Remove this useless assignment to local variable "chosenViz"(À³ºÆùÿÿÿÿ
+`javascript:UnusedVariable";Remove the declaration of the unused 'mapElement' variable.(´Àï
+`javascript:UnusedVariable/";Remove the declaration of the unused 'shapeCoord' variable.(›ÒÖ¤
+Mjavascript:S1128",Remove this unused import of 'ReactLoading'.(ÿØêİıÿÿÿÿ
+Ljavascript:S1128"0Remove this unused import of 'RadioButtonGroup'.(Ğ‡–Œ

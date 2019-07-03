@@ -1,7 +1,9 @@
 module.exports = {
     title:{
         title: 'Distribution of citizens & Sport infrastructure',
-         title2:'in Tunis Municipality'
+         title2:'in Tunis Municipality',
+        chooseState:'Please choose a state',
+        chooseMunicipality:'Please choose a municipality'
     },
     navbar: {
         viz:'Viz',

@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const shapeService = require('../services/shape.service')
-
+const registrationService = require('../services/registration.service')
 
 router.get('/pollingData', (req, res) => {
     let municipalityName = req.query.municipalityName;
@@ -1309,5 +1309,29 @@ router.get('/resultsData', (req, res) => {
             "__v": 0
         }
     )
+});
+
+router.get('/getDataByMunNameFr', (req, res) => {
+    let municipalityName = req.query.municipalityName;
+    registrationService.getDataByMunicipailityNameFr(municipalityName).then(result => {
+        if (result.length>0) {
+            res.json({
+                status: 200,
+                data: {
+                    municipality: result[0]
+                }
+            });
+        } else {
+            res.status(404).json({
+                status: 404,
+                message: "Municipality Not Found"
+            })
+        }
+    }).catch(err => {
+        res.status(400).json({
+            status: 400,
+            message: err
+        })
+    })
 });
 module.exports = router;

@@ -75,6 +75,7 @@ export default class MapTurnout extends Component {
             weight: 1
         });
     }
+
     resetMap() {
         const map = this.refs.map.leafletElement
         map.setView([general_results_per_mun[this.props.municipalityName].lat, general_results_per_mun[this.props.municipalityName].lon], 11, { animate: false })

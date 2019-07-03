@@ -4,6 +4,14 @@ const router = express.Router();
 const shapeService = require('../services/shape.service')
 
 
+router.get('/getAllGovsShape',(req,res)=>{
+    shapeService.getAllGovsShape().then(shape=>{
+        res.json({
+            status:200,
+            shape:shape
+        })
+    })
+})
 router.get('/sectors', (req, res) => {
     let municipalityName = req.query.municipalityName;
     console.info("[SHAPE] getting shapes for " + municipalityName);
