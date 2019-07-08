@@ -40,7 +40,7 @@ export default class MapTurnout extends Component {
     style(feature) {
         const property = feature.properties;
         let PROPERTY = parseInt(property.totalVotes) * 100 / parseInt(property.registered_sum);
-        console.log(PROPERTY);
+        console.debug(PROPERTY);
         return {
             fillColor: this.getColorRegElg(PROPERTY, ["#ffff9c", "#c2e699", "#78c679", "#238443"], [0, 15, 20, 30]),
             weight: 1.2,

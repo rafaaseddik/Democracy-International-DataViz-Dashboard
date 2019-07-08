@@ -11,6 +11,25 @@ router.get('/getAllGovsShape',(req,res)=>{
             shape:shape
         })
     })
+});
+router.get('/getMunicipalitiesShapeByGovName',(req,res)=>{
+    let govName = req.query.govName;
+    shapeService.getMunicipalitiesShapeByGovName(govName).then(municipalities=>{
+        res.json({
+            status:200,
+            municipalities:
+                {
+                    "type": "FeatureCollection",
+                    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                    "features": municipalities
+                }
+        })
+    }).catch(err=>{
+        res.status(400).json({
+            status:400,
+            messsage:err
+        })
+    })
 })
 router.get('/sectors', (req, res) => {
     let municipalityName = req.query.municipalityName;

@@ -27,6 +27,7 @@ export default class App extends Component {
       <Route exact path="/beja" component={RootAllCityData} />
       <Route exact path="/tibar" component={RootAllCityData} />
       <Route exact path="/nabeul" component={RootAllCityData} />
+      <Route exact path="/ariana" component={RootAllCityData} />
       {/* <Route exact path="/crowdsource" component={RootCrowdsourcing} />
       <Route exact path="/participation-gov-level" component={RootParticipationGov} />*/}
 

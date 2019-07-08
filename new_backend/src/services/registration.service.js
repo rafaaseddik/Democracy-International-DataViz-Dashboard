@@ -1,3 +1,4 @@
+const fs=require('fs');
 const Registration = require('../models/registration.model').model
 
 const MIXED_CLEAN = [
@@ -6309,5 +6310,11 @@ module.exports = {
             console.log(munNameFr)
             Registration.find({mun_fr: munNameFr}).then(result => resolve(result)).catch(err => reject(err));
         })
+    },
+    pushPollingDataToDb:function(){
+        RG = JSON.parse(fs.readFileSync('data/registration raw.json')).dataroot.registration;
+        RS = JSON.parse(fs.readFileSync('data/raw results.json'));
+        console.log(RG.length);
+        console.log(RS.length);
     }
 }

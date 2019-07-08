@@ -1,5 +1,5 @@
-module.exports={
-    globalHierarchy:[
+module.exports = {
+    globalHierarchy: [
         {
             "nameEN": "Medenine",
             "nameAR": "مدنين",
@@ -7,6 +7,7 @@ module.exports={
                 33.3,
                 11.1
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Ajim",
@@ -170,6 +171,7 @@ module.exports={
                 36.96,
                 10.13
             ],
+            "zoom": 11,
             "municipalities": [
                 {
                     "nameEN": "Ariana",
@@ -264,6 +266,7 @@ module.exports={
                 36.67,
                 10.71
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Haouaria",
@@ -542,6 +545,7 @@ module.exports={
                 35.92,
                 10.4
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "Akouda",
@@ -761,6 +765,7 @@ module.exports={
                 34.5,
                 8.8
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "El Guetar",
@@ -919,6 +924,7 @@ module.exports={
                 37,
                 9.6
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Hchachna",
@@ -1125,9 +1131,10 @@ module.exports={
             "nameEN": "Mahdia",
             "nameAR": "المهدية",
             "coordinates": [
-                35.6,
+                35.3,
                 10.7
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Bradaa",
@@ -1339,6 +1346,7 @@ module.exports={
                 34.86,
                 9.54
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Baten Elghezel",
@@ -1564,9 +1572,10 @@ module.exports={
             "nameEN": "Sfax",
             "nameAR": "صفاقس",
             "coordinates": [
-                34.82,
+                34.72,
                 10.41
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "El Hajeb",
@@ -1839,6 +1848,7 @@ module.exports={
                 36.8,
                 9.84
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Bassatine",
@@ -1951,9 +1961,10 @@ module.exports={
             "nameEN": "Monastir",
             "nameAR": "المنستير",
             "coordinates": [
-                35.4,
+                35.6,
                 10.7
             ],
+            "zoom": 11,
             "municipalities": [
                 {
                     "nameEN": "Amiret El Fehoul",
@@ -2223,9 +2234,10 @@ module.exports={
             "nameEN": "Le Kef",
             "nameAR": "الكاف",
             "coordinates": [
-                36.1,
+                36,
                 8.7
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Bahra",
@@ -2408,9 +2420,10 @@ module.exports={
             "nameEN": "Jendouba",
             "nameAR": "جندوبة",
             "coordinates": [
-                36.7,
+                36.654,
                 8.7
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Kalaa El Maaden Forgassen",
@@ -2600,6 +2613,7 @@ module.exports={
                 33.8,
                 9.7
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "El Hamma",
@@ -2773,9 +2787,10 @@ module.exports={
             "nameEN": "Siliana",
             "nameAR": "سليانة",
             "coordinates": [
-                36.1,
+                36,
                 9.35
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "El Hbabsa",
@@ -2939,9 +2954,10 @@ module.exports={
             "nameEN": "Ben Arous",
             "nameAR": "بن عروس",
             "coordinates": [
-                36.65,
+                36.64,
                 10.23
             ],
+            "zoom": 11,
             "municipalities": [
                 {
                     "nameEN": "Ben Arous",
@@ -3100,9 +3116,10 @@ module.exports={
             "nameEN": "Tataouine",
             "nameAR": "تطاوين",
             "coordinates": [
-                32.06,
+                31.8,
                 10.02
             ],
+            "zoom": 8,
             "municipalities": [
                 {
                     "nameEN": "Bir Lahmar",
@@ -3217,9 +3234,10 @@ module.exports={
             "nameEN": "Kasserine",
             "nameAR": "القصرين",
             "coordinates": [
-                35.3,
+                35.15,
                 8.8
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "El Ayoun",
@@ -3445,6 +3463,7 @@ module.exports={
                 36.3,
                 10
             ],
+            "zoom": 10,
             "municipalities": [
                 {
                     "nameEN": "El Fahs",
@@ -3551,6 +3570,7 @@ module.exports={
                 35.6,
                 9.9
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Abida",
@@ -3785,9 +3805,10 @@ module.exports={
             "nameEN": "Beja",
             "nameAR": "باجة",
             "coordinates": [
-                36.9,
+                36.65,
                 9.29
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Beja",
@@ -3971,6 +3992,7 @@ module.exports={
                 33.4,
                 8.9
             ],
+            "zoom": 8,
             "municipalities": [
                 {
                     "nameEN": "El Faouar",
@@ -4076,8 +4098,9 @@ module.exports={
             "nameAR": "تونس",
             "coordinates": [
                 36.8,
-                10.13
+                10.1
             ],
+            "zoom": 11,
             "municipalities": [
                 {
                     "nameEN": "Carthage",
@@ -4255,6 +4278,7 @@ module.exports={
                 34,
                 7.94
             ],
+            "zoom": 9,
             "municipalities": [
                 {
                     "nameEN": "Degach",
@@ -4322,5 +4346,5 @@ module.exports={
             ]
         }
     ],
-    tunisiacoordinates:[34.5, 9.849795,7]
+    tunisiacoordinates: [34.5, 9.849795, 7]
 }

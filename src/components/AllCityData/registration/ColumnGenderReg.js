@@ -8,7 +8,6 @@ export default class ColumnGenderReg extends Component {
         this.state = { option: {} }
     }
     componentWillMount() {
-        console.log(this.props.registeredFemale);
         this.setState({
             options: {
                 chart: {

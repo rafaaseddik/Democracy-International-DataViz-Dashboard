@@ -22,7 +22,7 @@ export default class WaffleChairs extends Component {
                                 let obj=this.props.randomColors.find(x => x.nom_liste_fr === element.nom_liste_fr)
                                 let index = this.props.randomColors.indexOf(obj)
                                 fillColor=this.props.randomColors[index].color
-                                console.log('ffff',fillColor);
+                                console.debug('ffff',fillColor);
                             }
                             arrayOfSvg.push(
                                 <div className="tooltipRectangle col-md-1">

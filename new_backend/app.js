@@ -1,6 +1,3 @@
-const registrationService = require("./src/services/registration.service");
-
-
 var express = require('express');
 const bodyParser = require('body-parser')
 //const fileUpload = require('./src/lib/index');
@@ -8,13 +5,14 @@ const routing = require('./src/routing');
 const MongoClient = require('mongodb').MongoClient;
 const mongoose = require('mongoose');
 const Globals = require('./globals');
+const dataInit = require('./data_init')
+
 
 var connection = mongoose.connect(Globals.database.url, {useNewUrlParser: true});
 mongoose.Promise = global.Promise;
 
 
-//var connection = mongoose.connect(Globals.database.url, {useNewUrlParser: true});
-//mongoose.Promise = global.Promise;
+
 
 const app = express();
 
@@ -47,4 +45,6 @@ app.get('/',(req,res)=>{
     })
 });
 
+
+dataInit.init();
 module.exports = app;

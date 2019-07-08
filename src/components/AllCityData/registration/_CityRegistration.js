@@ -32,11 +32,11 @@ export default class CityRegistration extends Component {
             <div >
                 <section className='container col-md-offset-1' style={{ zIndex: '0' }}  >
                     <div className="md-radio md-radio-inline">
-                        <input id="3" type="radio" name="g2" value={0} onClick={this.handleRadioFilter.bind(this, 'general')} checked={this.state.checked[0]} />
+                        <input id="3" type="rcadio" name="g2" value={0} onChange={this.handleRadioFilter.bind(this, 'general')} checked={this.state.checked[0]} />
                         <label htmlFor="3">{GENERAL}</label>
                     </div>
                     <div className="md-radio md-radio-inline">
-                        <input id="4" type="radio" name="g2" value={1} onClick={this.handleRadioFilter.bind(this, 'pervc')} checked={this.state.checked[1]} />
+                        <input id="4" type="radio" name="g2" value={1} onChange={this.handleRadioFilter.bind(this, 'pervc')} checked={this.state.checked[1]} />
                         <label htmlFor="4">{PERVC}</label>
                     </div>
                 </section>

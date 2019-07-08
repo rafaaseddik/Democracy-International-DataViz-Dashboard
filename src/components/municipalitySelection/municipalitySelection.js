@@ -30,12 +30,19 @@ class MunicipalitySelection extends Component {
         this.state = {
             menuStyle: true, chosenViz: 'boxes', mapZIndex: 150,
             center: stored_data.tunisiacoordinates, zoom: 7,
+            selectionMode: 'gov',
             selectedGov: {
+                nameEN: "",
+                nameAR: ""
+            },
+            selectedMun: {
                 nameEN: "",
                 nameAR: ""
             }
         }
+        this.geoJsonLayer = React.createRef()
     }
+
 
     componentWillMount() {
         let qString = `${config.localApiUrl}/api/shape/getAllGovsShape`;
@@ -52,7 +59,6 @@ class MunicipalitySelection extends Component {
             this.setState({
                 shape: data.data.shape
             });
-            console.log(this.state)
         })
     }
 
@@ -65,16 +71,47 @@ class MunicipalitySelection extends Component {
         this.setState({menuStyle, mapZIndex});
     }
 
+    getMunicipalitiesShapes(govName) {
+        let qString = `${config.localApiUrl}/api/shape/getMunicipalitiesShapeByGovName?govName=${govName}`;
+        axios({
+            method: 'get',
+            url: qString,
+            headers: {
+                'name': 'Isie',
+                'password': 'Isie@ndDi',
+                'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+        }).then(result => {
+            console.log(result)
+            this.geoJsonLayer.current.leafletElement.clearLayers().addData(result.data.municipalities);
+            this.setState({
+                shape: result.data.municipalities
+            })
+        })
+    }
+
     highlightFeature(e) {
         const layer = e.target;
         const properties = e.target.feature.properties;
-        this.setState({
-            selectedGov: {
-                nameEN: properties.gouv_name,
-                nameAR: properties.NAME_AR
-            }
 
-        });
+        if (this.state.selectionMode === 'gov')
+            this.setState({
+                selectedGov: {
+                    nameEN: properties.gouv_name,
+                    nameAR: properties.NAME_AR
+                }
+
+            });
+        else{
+            this.setState({
+                selectedMun: {
+                    nameEN: properties.LABEL,
+                    nameAR: properties.LABEL_AR
+                }
+
+            });
+        }
         return layer.setStyle({
             weight: 5,
             color: '#666',
@@ -90,21 +127,31 @@ class MunicipalitySelection extends Component {
             weight: 1
         });
     }
-    selectGov(e){
+
+    selectGov(e) {
         let govName = e.target.feature.properties.gouv_name
         console.log(e.target.feature.properties.gouv_name)
-        let govData = stored_data.globalHierarchy.find(e=>e.nameEN==govName)
+        let govData = stored_data.globalHierarchy.find(e => e.nameEN == govName)
         this.setState({
-            center:govData.coordinates,
-            zoom:8
+            selectionMode: 'municipality',
+            center: govData.coordinates,
+            zoom: govData.zoom
         })
+        this.getMunicipalitiesShapes(govName);
     }
+
     getColorRegElg(d, c1, grades) {
-        if (d > grades[3]) { return (c1[3]); }
-        else if (d > grades[2]) { return (c1[2]); }
-        else if (d > grades[1]) { return (c1[1]); }
-        else if (d > grades[0]) { return (c1[0]); }
-        else { return '#F2F2F0' }
+        if (d > grades[3]) {
+            return (c1[3]);
+        } else if (d > grades[2]) {
+            return (c1[2]);
+        } else if (d > grades[1]) {
+            return (c1[1]);
+        } else if (d > grades[0]) {
+            return (c1[0]);
+        } else {
+            return '#F2F2F0'
+        }
     }
 
     style(feature) {
@@ -122,16 +169,17 @@ class MunicipalitySelection extends Component {
 
     render() {
         let menuStyle = this.state.menuStyle ? '' : 'nav-active';
-        const TITLE = <Translate type='text' content='title.chooseState'/>//Municipal election data
+        const TITLE_GOV = <Translate type='text' content='title.chooseState'/>;
+        const TITLE_MUN = <Translate type='text' content='title.chooseMunicipality'/>;
 
-        const MAP_Turnout = <Translate type='text' content='cityTurnoutList.MAP_Turnout'/>//registration shares
-        const MAP_KEY = <Translate type='text' content='cityData.mapKey'/>//registration shares
-        const HOVER_INFO = <Translate type='text' content='cityData.hoverInfo'/>//hover info
-        const turnout_info = <Translate type='text' content='cityTurnoutList.turnout_info'/>//click info
-        const Polling_Number = <Translate type='text' content='cityData.Polling_Number'/>//registration shares
-        const validVotes = <Translate type='text' content='cityResultsList.validVotes'/>//registration shares
-        const Reg_Number = <Translate type='text' content='cityData.Reg_Number'/>
-        const TURNOUT = <Translate type='text' content='cityTurnoutList.turnout'/>//
+        const MAP_Turnout = <Translate type='text' content='cityTurnoutList.MAP_Turnout'/>;//registration shares
+        const MAP_KEY = <Translate type='text' content='cityData.mapKey'/>;//registration shares
+        const HOVER_INFO = <Translate type='text' content='cityData.hoverInfo'/>;//hover info
+        const turnout_info = <Translate type='text' content='cityTurnoutList.turnout_info'/>;//click info
+        const Polling_Number = <Translate type='text' content='cityData.Polling_Number'/>;//registration shares
+        const validVotes = <Translate type='text' content='cityResultsList.validVotes'/>;//registration shares
+        const Reg_Number = <Translate type='text' content='cityData.Reg_Number'/>;
+        const TURNOUT = <Translate type='text' content='cityTurnoutList.turnout'/>;//
 
         return (
             <section className={menuStyle}>
@@ -141,7 +189,7 @@ class MunicipalitySelection extends Component {
                       openMenu={this.openMenu.bind(this)}
                 />
                 <div className="site-content">
-                    <h1 className="font_wsRegular">{TITLE}</h1>
+                    <h1 className="font_wsRegular">{this.state.selectionMode === 'gov' ? TITLE_GOV : TITLE_MUN}</h1>
                 </div>
 
                 <div className='container'>
@@ -173,17 +221,21 @@ class MunicipalitySelection extends Component {
                                     //key={this.props.keymap}
                                     data={this.state.shape}
                                     style={this.style.bind(this)}
+                                    ref={this.geoJsonLayer}
                                     onEachFeature={
                                         (feature, layer) => {
                                             layer.on({mouseover: this.highlightFeature.bind(this)});
                                             layer.on({mouseout: this.resetFeature.bind(this)});
-                                            layer.on({ 'click' : this.selectGov.bind(this)})
+                                            layer.on({'click': this.selectGov.bind(this)})
                                         }
                                     }
                                 >
                                     <Tooltip>
                                         <div>
-                                            <h4 style={{textAlign: 'center'}}>{this.state.selectedGov.nameEN} - {this.state.selectedGov.nameAR}</h4>
+                                            {this.state.selectionMode==='gov'?
+                                            <h4 style={{textAlign: 'center'}}>{this.state.selectedGov.nameEN} - {this.state.selectedGov.nameAR}</h4>:
+                                                <h4 style={{textAlign: 'center'}}>{this.state.selectedMun.nameEN} - {this.state.selectedMun.nameAR}</h4>
+                                            }
                                         </div>
                                     </Tooltip>
                                 </GeoJSON>

@@ -1,0 +1,2958 @@
+{
+   "dataroot": {
+      "Parties": [
+         {
+            "nom_liste_fr": "\" Almaemurat...Ila Al'Amam \"",
+            "nom_liste_ar": "\" المعمورة...الى الامام \""
+         },
+         {
+            "nom_liste_fr": "Aamal Adala Thaqafa",
+            "nom_liste_ar": "عمل عدالة ثقافة"
+         },
+         {
+            "nom_liste_fr": "Abnaa Alaroussa",
+            "nom_liste_ar": "ابناء العروسة"
+         },
+         {
+            "nom_liste_fr": "Afak Zaghouan",
+            "nom_liste_ar": "آفاق زغوان"
+         },
+         {
+            "nom_liste_fr": "Afaq Alhamamat",
+            "nom_liste_ar": "افاق الحمامات"
+         },
+         {
+            "nom_liste_fr": "Afaq Almashrou' Alwatanii",
+            "nom_liste_ar": "آفاق المشروع الوطني"
+         },
+         {
+            "nom_liste_fr": "Afaq Bouragoub",
+            "nom_liste_ar": "افاق بوعرقوب"
+         },
+         {
+            "nom_liste_fr": "Afek Tounes",
+            "nom_liste_ar": "أفاق تونس"
+         },
+         {
+            "nom_liste_fr": "Ahali Alfahs",
+            "nom_liste_ar": "أھالي الفحص"
+         },
+         {
+            "nom_liste_fr": "Ahbak Ya Watani",
+            "nom_liste_ar": "أحبك یا وطني"
+         },
+         {
+            "nom_liste_fr": "Ahibba' Aljazyra",
+            "nom_liste_ar": "احباء الجزیرة"
+         },
+         {
+            "nom_liste_fr": "Ahna Benzart",
+            "nom_liste_ar": "أحنا بنزرت"
+         },
+         {
+            "nom_liste_fr": "Ahrar Alkusasiba",
+            "nom_liste_ar": "أحرار الكساسبة"
+         },
+         {
+            "nom_liste_fr": "Ahrar Alqusur",
+            "nom_liste_ar": "أحرار القصور"
+         },
+         {
+            "nom_liste_fr": "Ahrar Alriqab",
+            "nom_liste_ar": "أحرار الرقاب"
+         },
+         {
+            "nom_liste_fr": "Ahrar Biir Alhafii",
+            "nom_liste_ar": "أحرار بئر الحفي"
+         },
+         {
+            "nom_liste_fr": "Ahrar Hajib Alayoun",
+            "nom_liste_ar": "أحرار حاجب العیون"
+         },
+         {
+            "nom_liste_fr": "Ahrar Shati Maryem",
+            "nom_liste_ar": "أحرار شط مریم"
+         },
+         {
+            "nom_liste_fr": "Ahrar Susa",
+            "nom_liste_ar": "أحرار سوسة"
+         },
+         {
+            "nom_liste_fr": "Aitihad Ben Gardane",
+            "nom_liste_ar": "اتحاد بنقردان"
+         },
+         {
+            "nom_liste_fr": "Aitihad Shabab Kisraa",
+            "nom_liste_ar": "اتحاد شباب كسرى"
+         },
+         {
+            "nom_liste_fr": "Ajyal",
+            "nom_liste_ar": "الاجیال"
+         },
+         {
+            "nom_liste_fr": "Akhyar Altayar",
+            "nom_liste_ar": "أخیار التیار"
+         },
+         {
+            "nom_liste_fr": "Akouda Ghadwa Khyr",
+            "nom_liste_ar": "أكودة غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Al Aalya Almustaqbal",
+            "nom_liste_ar": "العالیة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Al Aamal",
+            "nom_liste_ar": "العمل"
+         },
+         {
+            "nom_liste_fr": "Al Aamal Almahali Altanmawi",
+            "nom_liste_ar": "العمل المحلي التنموي"
+         },
+         {
+            "nom_liste_fr": "Al Adala Al Tanmaweya",
+            "nom_liste_ar": "العدالة التنمویة"
+         },
+         {
+            "nom_liste_fr": "Al Amal",
+            "nom_liste_ar": "الامل"
+         },
+         {
+            "nom_liste_fr": "Al Amal Lighad 'Afdhal",
+            "nom_liste_ar": "العمل لغد أفضل"
+         },
+         {
+            "nom_liste_fr": "Al Aman",
+            "nom_liste_ar": "الأمان"
+         },
+         {
+            "nom_liste_fr": "Al Ayn Alssahra",
+            "nom_liste_ar": "العین الساھرة"
+         },
+         {
+            "nom_liste_fr": "Al Azyma W Althabat",
+            "nom_liste_ar": "العزیمة و الثبات"
+         },
+         {
+            "nom_liste_fr": "Al Hadhir W Almustaqbal",
+            "nom_liste_ar": "الحاضر و المستقبل"
+         },
+         {
+            "nom_liste_fr": "Al Houma",
+            "nom_liste_ar": "الحومة"
+         },
+         {
+            "nom_liste_fr": "Al Hurrya",
+            "nom_liste_ar": "الحریة"
+         },
+         {
+            "nom_liste_fr": "Al Ikhtiyar Al'Afdhal",
+            "nom_liste_ar": "الاختیار الافضل"
+         },
+         {
+            "nom_liste_fr": "Al Intilaqa",
+            "nom_liste_ar": "الانطلاقة"
+         },
+         {
+            "nom_liste_fr": "Al Intima' Lilardh",
+            "nom_liste_ar": "الانتماء للارض"
+         },
+         {
+            "nom_liste_fr": "Al Irada",
+            "nom_liste_ar": "الإرادة"
+         },
+         {
+            "nom_liste_fr": "AL IRADA",
+            "nom_liste_ar": "حراك تونس الارادة"
+         },
+         {
+            "nom_liste_fr": "Al Irtiqa' Bil Aamal Albaladii Bi Alshaba",
+            "nom_liste_ar": "الارتقاء بالعمل البلدي بالشابة"
+         },
+         {
+            "nom_liste_fr": "Al Izdihar",
+            "nom_liste_ar": "الإزدھار"
+         },
+         {
+            "nom_liste_fr": "Al Manara",
+            "nom_liste_ar": "المنارة"
+         },
+         {
+            "nom_liste_fr": "Al Marsa Tatabadal",
+            "nom_liste_ar": "المرسى تتبدل"
+         },
+         {
+            "nom_liste_fr": "Al Mourouj Khadhra' W Jamila",
+            "nom_liste_ar": "المروج خضراء و جمیلة"
+         },
+         {
+            "nom_liste_fr": "Al Mubadara W Altnmya",
+            "nom_liste_ar": "المبادرة و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Al Muwatana",
+            "nom_liste_ar": "المواطنة"
+         },
+         {
+            "nom_liste_fr": "Al Muwatana W Al Tanmya",
+            "nom_liste_ar": "المواطنة و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Al Nadhra Alththaqiba",
+            "nom_liste_ar": "النظرة الثاقبة"
+         },
+         {
+            "nom_liste_fr": "Al Nasr",
+            "nom_liste_ar": "النصر"
+         },
+         {
+            "nom_liste_fr": "Al Nouhoudh",
+            "nom_liste_ar": "النھوض"
+         },
+         {
+            "nom_liste_fr": "Al Ssalaah",
+            "nom_liste_ar": "الصلاح"
+         },
+         {
+            "nom_liste_fr": "Al Suluqya Maan",
+            "nom_liste_ar": "السلوقیة معا"
+         },
+         {
+            "nom_liste_fr": "Al Tahadi",
+            "nom_liste_ar": "التحدي"
+         },
+         {
+            "nom_liste_fr": "Al Toumouh",
+            "nom_liste_ar": "الطموح"
+         },
+         {
+            "nom_liste_fr": "Al Wifaq",
+            "nom_liste_ar": "الوفاق"
+         },
+         {
+            "nom_liste_fr": "Al Zytouna",
+            "nom_liste_ar": "الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Alaabed",
+            "nom_liste_ar": "العابد"
+         },
+         {
+            "nom_liste_fr": "Alaahd",
+            "nom_liste_ar": "العھد"
+         },
+         {
+            "nom_liste_fr": "Alaamal",
+            "nom_liste_ar": "العمل"
+         },
+         {
+            "nom_liste_fr": "Al'Afdhal",
+            "nom_liste_ar": "الأفضل"
+         },
+         {
+            "nom_liste_fr": "Al'Ahrar",
+            "nom_liste_ar": "الأحرار"
+         },
+         {
+            "nom_liste_fr": "Alainfitah",
+            "nom_liste_ar": "الانفتاح"
+         },
+         {
+            "nom_liste_fr": "Alaintilaq",
+            "nom_liste_ar": "الانطلاق"
+         },
+         {
+            "nom_liste_fr": "Alaintilaqa",
+            "nom_liste_ar": "الانطلاقة"
+         },
+         {
+            "nom_liste_fr": "Alaintisar Limabadi Alshahyd",
+            "nom_liste_ar": "الانتصار لمبادئ الشھید"
+         },
+         {
+            "nom_liste_fr": "Alairtiqa",
+            "nom_liste_ar": "الارتقاء"
+         },
+         {
+            "nom_liste_fr": "Alaitilaf Almadani Almustaqil Bibouhajla",
+            "nom_liste_ar": "الاتلاف المدني المستقل ببوحجلة"
+         },
+         {
+            "nom_liste_fr": "Alaitilaf Almadaniu Kelibya",
+            "nom_liste_ar": "الائتلاف المدني بقلیبیة"
+         },
+         {
+            "nom_liste_fr": "Al'Ajyal Aljadyda",
+            "nom_liste_ar": "الأجیال الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Al'Ajyal Alsaada",
+            "nom_liste_ar": "الأجیال الصاعدة"
+         },
+         {
+            "nom_liste_fr": "Alamal",
+            "nom_liste_ar": "الآمل"
+         },
+         {
+            "nom_liste_fr": "Al'Amal",
+            "nom_liste_ar": "الأمل"
+         },
+         {
+            "nom_liste_fr": "Al'Amal",
+            "nom_liste_ar": "الامل"
+         },
+         {
+            "nom_liste_fr": "Al'Amal Liljamye",
+            "nom_liste_ar": "الأمل للجمیع"
+         },
+         {
+            "nom_liste_fr": "Al'Amal Min Ajl Qaefur",
+            "nom_liste_ar": "الامل من اجل قعفور"
+         },
+         {
+            "nom_liste_fr": "Al'Amal W Al Toumouh",
+            "nom_liste_ar": "الامل و الطموح"
+         },
+         {
+            "nom_liste_fr": "Al'Amal W Albina'",
+            "nom_liste_ar": "الامل و البناء"
+         },
+         {
+            "nom_liste_fr": "Al'Amal W Aleamal",
+            "nom_liste_ar": "الامل و العمل"
+         },
+         {
+            "nom_liste_fr": "Al'Aman",
+            "nom_liste_ar": "الأمان"
+         },
+         {
+            "nom_liste_fr": "Al'Amana",
+            "nom_liste_ar": "الأمانة"
+         },
+         {
+            "nom_liste_fr": "Al'Amana",
+            "nom_liste_ar": "الامانة"
+         },
+         {
+            "nom_liste_fr": "Al'Amana W Al Shafafeya",
+            "nom_liste_ar": "الأمانة و الشفافیة"
+         },
+         {
+            "nom_liste_fr": "Al'Amana W Alwafa",
+            "nom_liste_ar": "الأمانة و الوفاء"
+         },
+         {
+            "nom_liste_fr": "Al'Anwar",
+            "nom_liste_ar": "الأنوار"
+         },
+         {
+            "nom_liste_fr": "Al'Asala",
+            "nom_liste_ar": "الأصالة"
+         },
+         {
+            "nom_liste_fr": "Alayadi Albydaa",
+            "nom_liste_ar": "الأیادي البیضاء"
+         },
+         {
+            "nom_liste_fr": "Alayadi Alnadhyfa",
+            "nom_liste_ar": "الأیادي النظیفة"
+         },
+         {
+            "nom_liste_fr": "Albadar",
+            "nom_liste_ar": "البدر"
+         },
+         {
+            "nom_liste_fr": "Albadil Almadani Bi Bardou",
+            "nom_liste_ar": "البديل المدني بباردو"
+         },
+         {
+            "nom_liste_fr": "Albahyra",
+            "nom_liste_ar": "البحیرة"
+         },
+         {
+            "nom_liste_fr": "Albalabiya Liljimye",
+            "nom_liste_ar": "البلدیة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Albaladeya Liljamii'",
+            "nom_liste_ar": "البلدیة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Albidyl Alshababi",
+            "nom_liste_ar": "البدیل الشبابي"
+         },
+         {
+            "nom_liste_fr": "Albiir Al'Ahmar Awlan",
+            "nom_liste_ar": "البئر الاحمر اولا"
+         },
+         {
+            "nom_liste_fr": "Albildyt Liljamye",
+            "nom_liste_ar": "البلدیة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Albina",
+            "nom_liste_ar": "البناء"
+         },
+         {
+            "nom_liste_fr": "Albina' W Al'Iislah",
+            "nom_liste_ar": "البناء و الاصلاح"
+         },
+         {
+            "nom_liste_fr": "Albina' W Al'Iislah W Altaamir",
+            "nom_liste_ar": "البناء و الاصلاح و التعمیر"
+         },
+         {
+            "nom_liste_fr": "Albina W Altaasys",
+            "nom_liste_ar": "البناء و التأسیس"
+         },
+         {
+            "nom_liste_fr": "Albina' Waltanmya",
+            "nom_liste_ar": "البناء والتنمیة"
+         },
+         {
+            "nom_liste_fr": "Albinaa",
+            "nom_liste_ar": "البناء"
+         },
+         {
+            "nom_liste_fr": "Alborj",
+            "nom_liste_ar": "البرج"
+         },
+         {
+            "nom_liste_fr": "Alburadieat Alhasynat W Alrasharisha",
+            "nom_liste_ar": "البرادعة الحسینات و الرشارشة"
+         },
+         {
+            "nom_liste_fr": "Albyan",
+            "nom_liste_ar": "البیان"
+         },
+         {
+            "nom_liste_fr": "Aldandan Mtaeina",
+            "nom_liste_ar": "الدندان متاعنا"
+         },
+         {
+            "nom_liste_fr": "Alddkhla",
+            "nom_liste_ar": "الدّخلة"
+         },
+         {
+            "nom_liste_fr": "Aldrabou",
+            "nom_liste_ar": "الدرابو"
+         },
+         {
+            "nom_liste_fr": "Aldwamsyya",
+            "nom_liste_ar": "الدوامسیة"
+         },
+         {
+            "nom_liste_fr": "Aleadala",
+            "nom_liste_ar": "العدالة"
+         },
+         {
+            "nom_liste_fr": "Aleamal",
+            "nom_liste_ar": "العمل"
+         },
+         {
+            "nom_liste_fr": "Aleamal Almustaqila",
+            "nom_liste_ar": "العمل المستقلة"
+         },
+         {
+            "nom_liste_fr": "Aleamal W Al'Amal",
+            "nom_liste_ar": "العمل و الامل"
+         },
+         {
+            "nom_liste_fr": "Aleamal W Almuatina",
+            "nom_liste_ar": "العمل و المواطنة"
+         },
+         {
+            "nom_liste_fr": "Aleamal W Almuthabara",
+            "nom_liste_ar": "العمل و المثابرة"
+         },
+         {
+            "nom_liste_fr": "Aleayn...",
+            "nom_liste_ar": "العین..."
+         },
+         {
+            "nom_liste_fr": "Aleazyma",
+            "nom_liste_ar": "العزیمة"
+         },
+         {
+            "nom_liste_fr": "Aleazymat W Aleamal Litahqyq Al'Amal",
+            "nom_liste_ar": "العزیمة و العمل لتحقیق الأمل"
+         },
+         {
+            "nom_liste_fr": "Alfawz W Aleamal",
+            "nom_liste_ar": "الفوز و العمل"
+         },
+         {
+            "nom_liste_fr": "Alfouhul Awalan",
+            "nom_liste_ar": "الفحول أولا"
+         },
+         {
+            "nom_liste_fr": "Alfursan",
+            "nom_liste_ar": "الفرسان"
+         },
+         {
+            "nom_liste_fr": "Alghazala",
+            "nom_liste_ar": "الغزالة"
+         },
+         {
+            "nom_liste_fr": "Alhamat Awalaan",
+            "nom_liste_ar": "الحامة أولا"
+         },
+         {
+            "nom_liste_fr": "Alhammamat Awla",
+            "nom_liste_ar": "الحمامات اولا"
+         },
+         {
+            "nom_liste_fr": "Alhayat",
+            "nom_liste_ar": "الحیاة"
+         },
+         {
+            "nom_liste_fr": "Alhayat Limanzil Alhayat",
+            "nom_liste_ar": "الحیاة لمنزل الحیاة"
+         },
+         {
+            "nom_liste_fr": "Alhizam Almadaniu",
+            "nom_liste_ar": "الحزام المدني"
+         },
+         {
+            "nom_liste_fr": "Alhorya",
+            "nom_liste_ar": "الحریة"
+         },
+         {
+            "nom_liste_fr": "Alhunshat Liljamye",
+            "nom_liste_ar": "الحنشة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Alhura",
+            "nom_liste_ar": "الحرة"
+         },
+         {
+            "nom_liste_fr": "Alhurrya",
+            "nom_liste_ar": "الحریة"
+         },
+         {
+            "nom_liste_fr": "Al'Iikhwa",
+            "nom_liste_ar": "الاخوة"
+         },
+         {
+            "nom_liste_fr": "Al'Iimtyaz",
+            "nom_liste_ar": "الإمتیاز"
+         },
+         {
+            "nom_liste_fr": "Al'Iinjaz",
+            "nom_liste_ar": "الإنجاز"
+         },
+         {
+            "nom_liste_fr": "Al'Iinjaz",
+            "nom_liste_ar": "الانجاز"
+         },
+         {
+            "nom_liste_fr": "Al'Iinqadh",
+            "nom_liste_ar": "الانقاذ"
+         },
+         {
+            "nom_liste_fr": "Al'Iintisar",
+            "nom_liste_ar": "الإنتصار"
+         },
+         {
+            "nom_liste_fr": "Al'Iintlaqa",
+            "nom_liste_ar": "الإنطلاقة"
+         },
+         {
+            "nom_liste_fr": "Al'Iintsar Liltwyrif Awlan",
+            "nom_liste_ar": "الإنتصار للطویرف أولا"
+         },
+         {
+            "nom_liste_fr": "Al'Iiqlaa",
+            "nom_liste_ar": "الاقلاع"
+         },
+         {
+            "nom_liste_fr": "Al'Iiqlae",
+            "nom_liste_ar": "الإقلاع"
+         },
+         {
+            "nom_liste_fr": "Al'Iiqlae",
+            "nom_liste_ar": "الاقلاع"
+         },
+         {
+            "nom_liste_fr": "Al'Iiqlae Min Ajl Ghad 'Afdal",
+            "nom_liste_ar": "الإقلاع من أجل غد أفضل"
+         },
+         {
+            "nom_liste_fr": "Al'Iiqlae Takilsa",
+            "nom_liste_ar": "الاقلاع بتاكلسة"
+         },
+         {
+            "nom_liste_fr": "Al'Iirada",
+            "nom_liste_ar": "الارادة"
+         },
+         {
+            "nom_liste_fr": "Al'Iirada W Al Aamal",
+            "nom_liste_ar": "الإرادة و العمل"
+         },
+         {
+            "nom_liste_fr": "Al'Iirada W Altahadi",
+            "nom_liste_ar": "الإرادة و التحدي"
+         },
+         {
+            "nom_liste_fr": "Al'Iirada W Althibat",
+            "nom_liste_ar": "الإرادة و الثبات"
+         },
+         {
+            "nom_liste_fr": "Al'Iiradat W Aleamal",
+            "nom_liste_ar": "الإرادة و العمل"
+         },
+         {
+            "nom_liste_fr": "Al'Iirtqa'",
+            "nom_liste_ar": "الإرتقاء"
+         },
+         {
+            "nom_liste_fr": "Al'Iishraq",
+            "nom_liste_ar": "الإشراق"
+         },
+         {
+            "nom_liste_fr": "Al'Iislah",
+            "nom_liste_ar": "الإصلاح"
+         },
+         {
+            "nom_liste_fr": "Al'Iislah W Altajdiid",
+            "nom_liste_ar": "الإصلاح و التجدبد"
+         },
+         {
+            "nom_liste_fr": "Al'Iislah W Altanmya",
+            "nom_liste_ar": "الإصلاح و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Al'Iitihad Min Ajl Nadhour",
+            "nom_liste_ar": "الإتحاد من أجل الناظور"
+         },
+         {
+            "nom_liste_fr": "Al'Iitilaf Almadani Biqalaat Alandalus",
+            "nom_liste_ar": "الإئتلاف المدني بقلعة الاندلس"
+         },
+         {
+            "nom_liste_fr": "Al'Iitlaf Almadaniu",
+            "nom_liste_ar": "الإئتلاف المدني"
+         },
+         {
+            "nom_liste_fr": "Al'Iizdihar",
+            "nom_liste_ar": "الإزدھار"
+         },
+         {
+            "nom_liste_fr": "Al'Ikhtyar Al'Afdal",
+            "nom_liste_ar": "الإختیار الأفضل"
+         },
+         {
+            "nom_liste_fr": "Aljamal",
+            "nom_liste_ar": "الجمل"
+         },
+         {
+            "nom_liste_fr": "Aljawhra",
+            "nom_liste_ar": "الجوھرة"
+         },
+         {
+            "nom_liste_fr": "Aljyl Aldhdhabi",
+            "nom_liste_ar": "الجیل الذھبي"
+         },
+         {
+            "nom_liste_fr": "Aljyl Aljadid Ala Altaryq Alsahyh",
+            "nom_liste_ar": "الجیل الجدید على الطریق الصحیح"
+         },
+         {
+            "nom_liste_fr": "Aljyl Aljadyd Libladyat Shrban",
+            "nom_liste_ar": "الجیل الجدید لبلدیة شربان"
+         },
+         {
+            "nom_liste_fr": "Aljyl Aljidyd",
+            "nom_liste_ar": "الجیل الجدید"
+         },
+         {
+            "nom_liste_fr": "Alkaf Ghudwa",
+            "nom_liste_ar": "الكاف غدوة"
+         },
+         {
+            "nom_liste_fr": "Alkaf Younadykom",
+            "nom_liste_ar": "الكاف ینادیكم"
+         },
+         {
+            "nom_liste_fr": "Alkafa'A",
+            "nom_liste_ar": "الكفاءة"
+         },
+         {
+            "nom_liste_fr": "Alkafa'At W Al'Iinjaz",
+            "nom_liste_ar": "الكفاءة و الإنجاز"
+         },
+         {
+            "nom_liste_fr": "Alkarama",
+            "nom_liste_ar": "الكرامة"
+         },
+         {
+            "nom_liste_fr": "Alkaramat Lilmuatin",
+            "nom_liste_ar": "الكرامة للمواطن"
+         },
+         {
+            "nom_liste_fr": "Alkhayr Liljamye",
+            "nom_liste_ar": "الخیر للجمیع"
+         },
+         {
+            "nom_liste_fr": "Alkhlydiya Tajmaouna",
+            "nom_liste_ar": "الخلیدیة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Alkhyr",
+            "nom_liste_ar": "الخیر"
+         },
+         {
+            "nom_liste_fr": "Alkiryb Mawtin Aljmye",
+            "nom_liste_ar": "الكریب موطن الجمیع"
+         },
+         {
+            "nom_liste_fr": "Alkiryb Nahw Al'Afdal",
+            "nom_liste_ar": "الكریب نحو الأفضل"
+         },
+         {
+            "nom_liste_fr": "Alkoufa Al Sughraa",
+            "nom_liste_ar": "الكوفة الصغرى"
+         },
+         {
+            "nom_liste_fr": "Allama",
+            "nom_liste_ar": "اللمة"
+         },
+         {
+            "nom_liste_fr": "Alliance Des Forces Démocratiques",
+            "nom_liste_ar": "إئتلاف القوى الدیمقراطیة"
+         },
+         {
+            "nom_liste_fr": "Alliance Des Forces Démocratiques",
+            "nom_liste_ar": "ائتلاف القوى الدیمقراطیة"
+         },
+         {
+            "nom_liste_fr": "Alma' W Alhayet",
+            "nom_liste_ar": "الماء و الحیاة"
+         },
+         {
+            "nom_liste_fr": "Almadina",
+            "nom_liste_ar": "المدینة"
+         },
+         {
+            "nom_liste_fr": "Almanajam",
+            "nom_liste_ar": "المنجم"
+         },
+         {
+            "nom_liste_fr": "Almanajim",
+            "nom_liste_ar": "المناجم"
+         },
+         {
+            "nom_liste_fr": "Almanara",
+            "nom_liste_ar": "المنارة"
+         },
+         {
+            "nom_liste_fr": "Almatlyn Tajmaouna",
+            "nom_liste_ar": "الماتلین تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Almdhilat Fi Alqalb",
+            "nom_liste_ar": "المظیلة في القلب"
+         },
+         {
+            "nom_liste_fr": "Almiknasi Aljadida",
+            "nom_liste_ar": "المكناسي الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Almiknasi 'Amana",
+            "nom_liste_ar": "المكناسي أمانة"
+         },
+         {
+            "nom_liste_fr": "Almisadaqiya...Aladaa'...Alkafa'A",
+            "nom_liste_ar": "المصداقیة...الاداء...الكفاءة"
+         },
+         {
+            "nom_liste_fr": "Almizan",
+            "nom_liste_ar": "المیزان"
+         },
+         {
+            "nom_liste_fr": "Almnihla Awalan",
+            "nom_liste_ar": "المنیھلة اولا"
+         },
+         {
+            "nom_liste_fr": "Almrnaguia Tatajadad",
+            "nom_liste_ar": "المرناقیھ تتجدد"
+         },
+         {
+            "nom_liste_fr": "Almuatana",
+            "nom_liste_ar": "المواطنة"
+         },
+         {
+            "nom_liste_fr": "Almuatina W Alasala",
+            "nom_liste_ar": "المواطنة و الاصالة"
+         },
+         {
+            "nom_liste_fr": "Almuatnyya Maakoum Nastatye",
+            "nom_liste_ar": "المواطنیة معكم نستطیع"
+         },
+         {
+            "nom_liste_fr": "Almubadarat W Al'Iislah",
+            "nom_liste_ar": "المبادرة و الاصلاح"
+         },
+         {
+            "nom_liste_fr": "Almunastir Fi Inina",
+            "nom_liste_ar": "المنستیر في عینینا"
+         },
+         {
+            "nom_liste_fr": "Almustaqbal",
+            "nom_liste_ar": "المستقبل"
+         },
+         {
+            "nom_liste_fr": "Almustaqbal 'Afdal",
+            "nom_liste_ar": "المستقبل أفضل"
+         },
+         {
+            "nom_liste_fr": "Almustaqbal Almushriq",
+            "nom_liste_ar": "المستقبل المشرق"
+         },
+         {
+            "nom_liste_fr": "Almustaqbal Awlaan",
+            "nom_liste_ar": "المستقبل أولا"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Amal",
+            "nom_liste_ar": "المستقلة أمل"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Biladi",
+            "nom_liste_ar": "المستقلة بلادي"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Lil Amal Albaladii Bil Biir Al'Ahmar",
+            "nom_liste_ar": "المستقلة للعمل البلدي بالبئر الأحمر"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Lil Amal W Altanmya",
+            "nom_liste_ar": "المستقلة للعمل و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Lil Ruqye Bi Tinja",
+            "nom_liste_ar": "المستقلة للرقي بتینجة"
+         },
+         {
+            "nom_liste_fr": "Almustaqila Lilmuatana Brjysh",
+            "nom_liste_ar": "المستقلة للمواطنة برجیش"
+         },
+         {
+            "nom_liste_fr": "Almustaqiloun Al'Ahrar",
+            "nom_liste_ar": "المستقلون الاحرار"
+         },
+         {
+            "nom_liste_fr": "Almutawasit",
+            "nom_liste_ar": "المتوسط"
+         },
+         {
+            "nom_liste_fr": "Almuthabara W Al Tawasul",
+            "nom_liste_ar": "المثابرة و التواصل"
+         },
+         {
+            "nom_liste_fr": "Almuwatina Al Massouula",
+            "nom_liste_ar": "المواطنة المسؤولة"
+         },
+         {
+            "nom_liste_fr": "Almuwatinun Al'Ahrar",
+            "nom_liste_ar": "المواطنون الأحرار"
+         },
+         {
+            "nom_liste_fr": "Almuzawinat Almuahada",
+            "nom_liste_ar": "المزونة الموحدة"
+         },
+         {
+            "nom_liste_fr": "Almyzan",
+            "nom_liste_ar": "المیزان"
+         },
+         {
+            "nom_liste_fr": "Alnajah",
+            "nom_liste_ar": "النجاح"
+         },
+         {
+            "nom_liste_fr": "Alnajat",
+            "nom_liste_ar": "النجاة"
+         },
+         {
+            "nom_liste_fr": "Alnajma",
+            "nom_liste_ar": "النجمة"
+         },
+         {
+            "nom_liste_fr": "Alnasr",
+            "nom_liste_ar": "النصر"
+         },
+         {
+            "nom_liste_fr": "Alnasr Almustaqila",
+            "nom_liste_ar": "النصر المستقلة"
+         },
+         {
+            "nom_liste_fr": "Alnazaha",
+            "nom_liste_ar": "النزاھة"
+         },
+         {
+            "nom_liste_fr": "Alnnouhoudh Bialqlaa Alkhsba",
+            "nom_liste_ar": "النھوض بالقلعة الخصبة"
+         },
+         {
+            "nom_liste_fr": "Alnnoumow",
+            "nom_liste_ar": "النـمو"
+         },
+         {
+            "nom_liste_fr": "Alnnour",
+            "nom_liste_ar": "النور"
+         },
+         {
+            "nom_liste_fr": "Alnour",
+            "nom_liste_ar": "النور"
+         },
+         {
+            "nom_liste_fr": "Alnusur",
+            "nom_liste_ar": "النسور"
+         },
+         {
+            "nom_liste_fr": "Alqalae",
+            "nom_liste_ar": "القلعھ"
+         },
+         {
+            "nom_liste_fr": "Alqalea Aljadyda",
+            "nom_liste_ar": "القلعة الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Alqaleat Awla",
+            "nom_liste_ar": "القلعة أولا"
+         },
+         {
+            "nom_liste_fr": "Alqayima Almustaqila Nabeul Fi Alqalb",
+            "nom_liste_ar": "القائمة المستقلة نابل في القلب"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almuatnayt Almustaqila Alhamam 2030",
+            "nom_liste_ar": "القائمة المواطنیة المستقلة الحمام 2030"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqila \"Al Toumouh\"",
+            "nom_liste_ar": "القائمة المستقلة \"الطموح\""
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqila Al'Iiqlaa",
+            "nom_liste_ar": "القائمة المستقلة الإقلاع"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqila Alsubula Ridhaa Al Dallagi",
+            "nom_liste_ar": "القائمة المستقلة السبولة رضا الدلاجي"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqila Alwifaq",
+            "nom_liste_ar": "القائمة المستقلة الوفاق"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqila Boumhal Albsatyn 'Amana",
+            "nom_liste_ar": "القائمة المستقلة بومھل البساتین أمانة"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Al'Iislah W Almusalaha",
+            "nom_liste_ar": "القائمة المستقلة الإصلاح و المصالحة"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Alshabab W Altanmya",
+            "nom_liste_ar": "القائمة المستقلة الشباب و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Alwird",
+            "nom_liste_ar": "القائمة المستقلة الورد"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Alzzytouna",
+            "nom_liste_ar": "القائمة المستقلة الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Lilshabab",
+            "nom_liste_ar": "القائمة المستقلة للشباب"
+         },
+         {
+            "nom_liste_fr": "Alqayimat Almustaqilat Sharakata...Wahada...Biyya",
+            "nom_liste_ar": "القائمة المستقلة شراكة...وحدة...بیئة"
+         },
+         {
+            "nom_liste_fr": "Alraja W Alsumud",
+            "nom_liste_ar": "الرجاء و الصمود"
+         },
+         {
+            "nom_liste_fr": "Alribat",
+            "nom_liste_ar": "الرباط"
+         },
+         {
+            "nom_liste_fr": "Alrihan Albaladii",
+            "nom_liste_ar": "الرھان البلدي"
+         },
+         {
+            "nom_liste_fr": "Alriqab Amana",
+            "nom_liste_ar": "الرقاب امانة"
+         },
+         {
+            "nom_liste_fr": "Alryada",
+            "nom_liste_ar": "الریادة"
+         },
+         {
+            "nom_liste_fr": "Alsabyl",
+            "nom_liste_ar": "السبیل"
+         },
+         {
+            "nom_liste_fr": "Alsafa",
+            "nom_liste_ar": "الصفاء"
+         },
+         {
+            "nom_liste_fr": "Alsanabul",
+            "nom_liste_ar": "السنابل"
+         },
+         {
+            "nom_liste_fr": "Alsanbula",
+            "nom_liste_ar": "السنبلة"
+         },
+         {
+            "nom_liste_fr": "Alsbikha Amal",
+            "nom_liste_ar": "السبیخة أمل"
+         },
+         {
+            "nom_liste_fr": "Alshaba Bykum 'Ashab",
+            "nom_liste_ar": "الشابة بیكم أشب"
+         },
+         {
+            "nom_liste_fr": "Alshabab",
+            "nom_liste_ar": "الشباب"
+         },
+         {
+            "nom_liste_fr": "Alshabab Al'Ahrar",
+            "nom_liste_ar": "الشباب الاحرار"
+         },
+         {
+            "nom_liste_fr": "Alshabab Almustaqil",
+            "nom_liste_ar": "الشباب المستقل"
+         },
+         {
+            "nom_liste_fr": "Alshabab Almustaqilu Tatawyn",
+            "nom_liste_ar": "الشباب المستقل تطاوین"
+         },
+         {
+            "nom_liste_fr": "Alshabab Alssaeid Bialsaeyda",
+            "nom_liste_ar": "الشباب الصاعد بالسعیدة"
+         },
+         {
+            "nom_liste_fr": "Alshabab Imad Albilad",
+            "nom_liste_ar": "الشباب عماد البلاد"
+         },
+         {
+            "nom_liste_fr": "Alshabab Liltajidid",
+            "nom_liste_ar": "الشباب للتجدید"
+         },
+         {
+            "nom_liste_fr": "Alshabab Nahw Alriyada",
+            "nom_liste_ar": "الشباب نحو الریادة"
+         },
+         {
+            "nom_liste_fr": "Alshabi Aljamhouri Almutahad",
+            "nom_liste_ar": "الشعبي الجمھوري المتحد"
+         },
+         {
+            "nom_liste_fr": "Alshumukh",
+            "nom_liste_ar": "الشموخ"
+         },
+         {
+            "nom_liste_fr": "Alshuruq",
+            "nom_liste_ar": "الشروق"
+         },
+         {
+            "nom_liste_fr": "Alsidq W Al'Iinjaz",
+            "nom_liste_ar": "الصدق و الانجاز"
+         },
+         {
+            "nom_liste_fr": "Alskhyrt Almustaqbal",
+            "nom_liste_ar": "الصخیرة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Alskhyrt Tajamaeuna",
+            "nom_liste_ar": "الصخیرة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Alsonboula",
+            "nom_liste_ar": "السنبلة"
+         },
+         {
+            "nom_liste_fr": "Alsooud",
+            "nom_liste_ar": "الصعود"
+         },
+         {
+            "nom_liste_fr": "Alssahm",
+            "nom_liste_ar": "السھم"
+         },
+         {
+            "nom_liste_fr": "Alssaqyt Almazyana",
+            "nom_liste_ar": "الساقیة المزیانة"
+         },
+         {
+            "nom_liste_fr": "Alsubalat Tajamaena",
+            "nom_liste_ar": "السبالة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Alsumud",
+            "nom_liste_ar": "الصمود"
+         },
+         {
+            "nom_liste_fr": "Alsumud W Al'Iirada",
+            "nom_liste_ar": "الصمود و الإرادة"
+         },
+         {
+            "nom_liste_fr": "Altaaayosh",
+            "nom_liste_ar": "التعایش"
+         },
+         {
+            "nom_liste_fr": "Altahadi",
+            "nom_liste_ar": "التحدي"
+         },
+         {
+            "nom_liste_fr": "Altahadi Al Tanmaoui",
+            "nom_liste_ar": "التحدي التنموي"
+         },
+         {
+            "nom_liste_fr": "Altahadii",
+            "nom_liste_ar": "التحدى"
+         },
+         {
+            "nom_liste_fr": "Altahadii",
+            "nom_liste_ar": "التحدي"
+         },
+         {
+            "nom_liste_fr": "Altahadiy",
+            "nom_liste_ar": "التحدي"
+         },
+         {
+            "nom_liste_fr": "Altahady",
+            "nom_liste_ar": "التحدي"
+         },
+         {
+            "nom_liste_fr": "Altamayoz",
+            "nom_liste_ar": "التمیز"
+         },
+         {
+            "nom_liste_fr": "Altanmiya",
+            "nom_liste_ar": "التنمیة"
+         },
+         {
+            "nom_liste_fr": "Altanmya Haqina",
+            "nom_liste_ar": "التنمیة حقنا"
+         },
+         {
+            "nom_liste_fr": "Altaoumouh W Al Tanmya",
+            "nom_liste_ar": "الطموح و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Altaqadomiya Lilnidhal Alaijtimaeii",
+            "nom_liste_ar": "التقدمیة للنضال الاجتماعي"
+         },
+         {
+            "nom_liste_fr": "Altaqadum",
+            "nom_liste_ar": "التقدم"
+         },
+         {
+            "nom_liste_fr": "Altaqadum W Altanmiya",
+            "nom_liste_ar": "التقدم و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Altawafuq",
+            "nom_liste_ar": "التوافق"
+         },
+         {
+            "nom_liste_fr": "Altawasul",
+            "nom_liste_ar": "التواصل"
+         },
+         {
+            "nom_liste_fr": "Altghyyr",
+            "nom_liste_ar": "التغییر"
+         },
+         {
+            "nom_liste_fr": "Althabat Alaa Almabdaa",
+            "nom_liste_ar": "الثبات على المبدإ"
+         },
+         {
+            "nom_liste_fr": "Althibat",
+            "nom_liste_ar": "الثبات"
+         },
+         {
+            "nom_liste_fr": "Althibat Fi Hubin Kelibya",
+            "nom_liste_ar": "الثبات في حب قلیبیة"
+         },
+         {
+            "nom_liste_fr": "Althiqa",
+            "nom_liste_ar": "الثقة"
+         },
+         {
+            "nom_liste_fr": "Altjdyd",
+            "nom_liste_ar": "التجدید"
+         },
+         {
+            "nom_liste_fr": "Altomouh Waltahady",
+            "nom_liste_ar": "الطموح والتحدي"
+         },
+         {
+            "nom_liste_fr": "Altumuh",
+            "nom_liste_ar": "الطموح"
+         },
+         {
+            "nom_liste_fr": "Al'Ufuq",
+            "nom_liste_ar": "الافق"
+         },
+         {
+            "nom_liste_fr": "Alwaed Alhur",
+            "nom_liste_ar": "الوعد الحر"
+         },
+         {
+            "nom_liste_fr": "Alwafa",
+            "nom_liste_ar": "الوفاء"
+         },
+         {
+            "nom_liste_fr": "Alwafa'",
+            "nom_liste_ar": "الوفاء"
+         },
+         {
+            "nom_liste_fr": "Alwafa' Lilmuatin",
+            "nom_liste_ar": "الوفاء للمواطن"
+         },
+         {
+            "nom_liste_fr": "Alwafa' Ltanmyat Jhyna",
+            "nom_liste_ar": "الوفاء لتنمیة جھینة"
+         },
+         {
+            "nom_liste_fr": "Alwaha",
+            "nom_liste_ar": "الواحة"
+         },
+         {
+            "nom_liste_fr": "Alwahdat Lighad 'Afdal",
+            "nom_liste_ar": "الوحدة لغد أفضل"
+         },
+         {
+            "nom_liste_fr": "Alwan Almarsaa",
+            "nom_liste_ar": "ألوان المرسى"
+         },
+         {
+            "nom_liste_fr": "Alwasyya",
+            "nom_liste_ar": "الوصیة"
+         },
+         {
+            "nom_liste_fr": "Alwatan Alsaghyr",
+            "nom_liste_ar": "الوطن الصغیر"
+         },
+         {
+            "nom_liste_fr": "Alwesalatyya Tajmaouna",
+            "nom_liste_ar": "الوسلاتیة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Alwiam",
+            "nom_liste_ar": "الوئام"
+         },
+         {
+            "nom_liste_fr": "Alwifaq",
+            "nom_liste_ar": "الوفاق"
+         },
+         {
+            "nom_liste_fr": "Alwifaq Al Fursan",
+            "nom_liste_ar": "الوفاق الفرسان"
+         },
+         {
+            "nom_liste_fr": "Alwifaq Altanmaoiu",
+            "nom_liste_ar": "الوفاق التنموي"
+         },
+         {
+            "nom_liste_fr": "Alwifaq Liltanmya",
+            "nom_liste_ar": "الوفاق للتنمیة"
+         },
+         {
+            "nom_liste_fr": "Alwird",
+            "nom_liste_ar": "الورد"
+         },
+         {
+            "nom_liste_fr": "Alya Bin Alhaj Salim",
+            "nom_liste_ar": "علیة بن الحاج سالم"
+         },
+         {
+            "nom_liste_fr": "Alyad Albydhaa",
+            "nom_liste_ar": "الید البیضاء"
+         },
+         {
+            "nom_liste_fr": "Alyasamyn",
+            "nom_liste_ar": "الیاسمین"
+         },
+         {
+            "nom_liste_fr": "Alyd Albyda' Likhidmat Aldueafa",
+            "nom_liste_ar": "الید البیضاء لخدمة الضعفاء"
+         },
+         {
+            "nom_liste_fr": "Alyd Fi Alyd",
+            "nom_liste_ar": "الید في الید"
+         },
+         {
+            "nom_liste_fr": "Alyd Fi Alyd Libina' Alghad",
+            "nom_liste_ar": "الید في الید لبناء الغد"
+         },
+         {
+            "nom_liste_fr": "Alyd Fi Alyd Ltahqiq Altnmia W Altshghil",
+            "nom_liste_ar": "الید في الید لتحقیق التنمیة و التشغیل"
+         },
+         {
+            "nom_liste_fr": "Alzryba Lilnaas Elkol",
+            "nom_liste_ar": "الزریبة للناس الكل"
+         },
+         {
+            "nom_liste_fr": "Alzzahra' Liljamye",
+            "nom_liste_ar": "الزھراء للجمیع"
+         },
+         {
+            "nom_liste_fr": "Alzzitouna",
+            "nom_liste_ar": "الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Alzzytouna",
+            "nom_liste_ar": "الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Amal",
+            "nom_liste_ar": "أمل"
+         },
+         {
+            "nom_liste_fr": "Amal Aldakhala",
+            "nom_liste_ar": "أمل الدخلة"
+         },
+         {
+            "nom_liste_fr": "Amal Almarsaa",
+            "nom_liste_ar": "أمل المرسى"
+         },
+         {
+            "nom_liste_fr": "Amal Alshbika",
+            "nom_liste_ar": "أمل الشبیكة"
+         },
+         {
+            "nom_liste_fr": "Amal Sbitla",
+            "nom_liste_ar": "امل سبیطلة"
+         },
+         {
+            "nom_liste_fr": "Amal Sidi Thabet",
+            "nom_liste_ar": "أمل سیدي ثابت"
+         },
+         {
+            "nom_liste_fr": "Amalu Almustaqbal",
+            "nom_liste_ar": "أمل المستقبل"
+         },
+         {
+            "nom_liste_fr": "Amana",
+            "nom_liste_ar": "أمانة"
+         },
+         {
+            "nom_liste_fr": "Amul",
+            "nom_liste_ar": "امل"
+         },
+         {
+            "nom_liste_fr": "Ariana Almezyana",
+            "nom_liste_ar": "أریانة المزیانة"
+         },
+         {
+            "nom_liste_fr": "Ariana Fi Alqalb",
+            "nom_liste_ar": "أریانة في القلب"
+         },
+         {
+            "nom_liste_fr": "Ariana Fi Iyniina",
+            "nom_liste_ar": "أریانة في عینینا"
+         },
+         {
+            "nom_liste_fr": "Ariana Iinti W Ana",
+            "nom_liste_ar": "أریانة إنت و أنا"
+         },
+         {
+            "nom_liste_fr": "Ariana Tlemna",
+            "nom_liste_ar": "اریانة تلمنا"
+         },
+         {
+            "nom_liste_fr": "Arrouheyatawahadna",
+            "nom_liste_ar": "الروحیة توحدنا"
+         },
+         {
+            "nom_liste_fr": "Arroyaa Aljadyda",
+            "nom_liste_ar": "الرؤیة الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Asala",
+            "nom_liste_ar": "أصالة"
+         },
+         {
+            "nom_liste_fr": "Awfya' Weslat",
+            "nom_liste_ar": "اوفیاء وسلات"
+         },
+         {
+            "nom_liste_fr": "Awlad Alhouma",
+            "nom_liste_ar": "أولاد الحومة"
+         },
+         {
+            "nom_liste_fr": "Awlad Bilad",
+            "nom_liste_ar": "أولاد بلاد"
+         },
+         {
+            "nom_liste_fr": "Awlad Biladi",
+            "nom_liste_ar": "أولاد بلادي"
+         },
+         {
+            "nom_liste_fr": "Awlad Manouba",
+            "nom_liste_ar": "اولاد منوبة"
+         },
+         {
+            "nom_liste_fr": "Awlad Sokra",
+            "nom_liste_ar": "أولاد سكرة"
+         },
+         {
+            "nom_liste_fr": "Awladuna",
+            "nom_liste_ar": "أولادنا"
+         },
+         {
+            "nom_liste_fr": "Badyl Alhashashina",
+            "nom_liste_ar": "بدیل الحشاشنة"
+         },
+         {
+            "nom_liste_fr": "Baeyd Eali'Ahzab Nfidou Liblad",
+            "nom_liste_ar": "بعید علأحزاب نفیدو لبلاد"
+         },
+         {
+            "nom_liste_fr": "Bani Khyar Tatajadad",
+            "nom_liste_ar": "بني خیار تتجدد"
+         },
+         {
+            "nom_liste_fr": "Bargou Altanmiya",
+            "nom_liste_ar": "برقو التنمیة"
+         },
+         {
+            "nom_liste_fr": "Bargou Tajamaena",
+            "nom_liste_ar": "برقو تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Bayir Ealia Bin Khalifa",
+            "nom_liste_ar": "بئر علي بن خلیفة"
+         },
+         {
+            "nom_liste_fr": "Ben Arous Aljadida",
+            "nom_liste_ar": "بن عروس الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Ben Gardane Awla",
+            "nom_liste_ar": "بنقردان اولا"
+         },
+         {
+            "nom_liste_fr": "Ben Gardane Tatahida",
+            "nom_liste_ar": "بنقردان تتحد"
+         },
+         {
+            "nom_liste_fr": "Beni Watani",
+            "nom_liste_ar": "بني وطني"
+         },
+         {
+            "nom_liste_fr": "Benzart Alghad",
+            "nom_liste_ar": "بنزرت الغد"
+         },
+         {
+            "nom_liste_fr": "Bidyl Sujnan",
+            "nom_liste_ar": "بدیل سجنان"
+         },
+         {
+            "nom_liste_fr": "Bikum Nastatiiea",
+            "nom_liste_ar": "بكم نستطیع"
+         },
+         {
+            "nom_liste_fr": "Bil 'Iirada Nanmou",
+            "nom_liste_ar": "بالإرادة ننمو"
+         },
+         {
+            "nom_liste_fr": "Biladi Amana",
+            "nom_liste_ar": "بلادي أمانة"
+         },
+         {
+            "nom_liste_fr": "Biladina Amana",
+            "nom_liste_ar": "بلادنا أمانة"
+         },
+         {
+            "nom_liste_fr": "Bilkhyr Almuahada",
+            "nom_liste_ar": "بلخیر الموحدة"
+         },
+         {
+            "nom_liste_fr": "Bir Mchergua Tajamaena",
+            "nom_liste_ar": "بئر مشارقة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Bnan Tajmaouna",
+            "nom_liste_ar": "بنان تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Bouarada Awlan",
+            "nom_liste_ar": "بوعرادة أولا"
+         },
+         {
+            "nom_liste_fr": "Bouficha",
+            "nom_liste_ar": "بوفیشة"
+         },
+         {
+            "nom_liste_fr": "Bouficha Al'Amal",
+            "nom_liste_ar": "بوفیشة الأمل"
+         },
+         {
+            "nom_liste_fr": "Bouhjiar Liljamii'",
+            "nom_liste_ar": "بوحجر للجمیع"
+         },
+         {
+            "nom_liste_fr": "Bourj Alhammamat",
+            "nom_liste_ar": "برج الحمامات"
+         },
+         {
+            "nom_liste_fr": "Bushimat Yd Wahda",
+            "nom_liste_ar": "بوشمة ید وحدة"
+         },
+         {
+            "nom_liste_fr": "Carthage Alhuriya",
+            "nom_liste_ar": "قرطاج الحرية"
+         },
+         {
+            "nom_liste_fr": "Carthage Janna",
+            "nom_liste_ar": "قرطاج جنة"
+         },
+         {
+            "nom_liste_fr": "Courant Démocrate",
+            "nom_liste_ar": "التیار الدمقراطي"
+         },
+         {
+            "nom_liste_fr": "Courant Démocrate",
+            "nom_liste_ar": "حزب التیار الدیمقراطي"
+         },
+         {
+            "nom_liste_fr": "Darikum",
+            "nom_liste_ar": "داركم"
+         },
+         {
+            "nom_liste_fr": "Dawlat Almuatina",
+            "nom_liste_ar": "دولة المواطنة"
+         },
+         {
+            "nom_liste_fr": "Eashaq Al'Ard",
+            "nom_liste_ar": "عشاق الارض"
+         },
+         {
+            "nom_liste_fr": "Eimyrat Alhujaj Awlaan",
+            "nom_liste_ar": "عمیرة الحجاج أولا"
+         },
+         {
+            "nom_liste_fr": "El Binaa Al Watani",
+            "nom_liste_ar": "فك بلاصتك"
+         },
+         {
+            "nom_liste_fr": "El Binaa Al Watani / Fok blastek",
+            "nom_liste_ar": "فك بلاصتك"
+         },
+         {
+            "nom_liste_fr": "Ennahdha",
+            "nom_liste_ar": "حزب حركة النھضة"
+         },
+         {
+            "nom_liste_fr": "Eumor Albydha'",
+            "nom_liste_ar": "عمر البیضاء"
+         },
+         {
+            "nom_liste_fr": "Eyn Alhayat",
+            "nom_liste_ar": "عین الحیاة"
+         },
+         {
+            "nom_liste_fr": "Eyn Almuatin",
+            "nom_liste_ar": "عین المواطن"
+         },
+         {
+            "nom_liste_fr": "Eyn Turkya",
+            "nom_liste_ar": "عین تركیة"
+         },
+         {
+            "nom_liste_fr": "Ezz Albilad",
+            "nom_liste_ar": "عز البلاد"
+         },
+         {
+            "nom_liste_fr": "Fabihyth Almustaqbal Likindar",
+            "nom_liste_ar": "فبحیث المستقبل لكندار"
+         },
+         {
+            "nom_liste_fr": "Fabihyth Fi Alaitihad Quwwa",
+            "nom_liste_ar": "فبحیث في الاتحاد قوة"
+         },
+         {
+            "nom_liste_fr": "Fabihythou Thiya Tyna",
+            "nom_liste_ar": "فبحیث تحیا طینة"
+         },
+         {
+            "nom_liste_fr": "Farsan Altahadi",
+            "nom_liste_ar": "فرسان التحدي"
+         },
+         {
+            "nom_liste_fr": "Fbhyth Yhya Shbay Jidlyan",
+            "nom_liste_ar": "فبحیث یحیا شباي جدلیان"
+         },
+         {
+            "nom_liste_fr": "Firiana Awalan",
+            "nom_liste_ar": "فریانة اولا"
+         },
+         {
+            "nom_liste_fr": "Firiana Liljamye",
+            "nom_liste_ar": "فریانة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Floukat Alshat",
+            "nom_liste_ar": "فلوكة الشط"
+         },
+         {
+            "nom_liste_fr": "Fok Blasstek",
+            "nom_liste_ar": "فك بلاصتك"
+         },
+         {
+            "nom_liste_fr": "Front Populaire",
+            "nom_liste_ar": "الجبهة الشعبية"
+         },
+         {
+            "nom_liste_fr": "Front Populaire",
+            "nom_liste_ar": "الجبھة الشعبیة"
+         },
+         {
+            "nom_liste_fr": "Front Populaire",
+            "nom_liste_ar": "الجبھھ الشعبیھ"
+         },
+         {
+            "nom_liste_fr": "Front Populaire",
+            "nom_liste_ar": "اللائتلافیة الجبھة الشعبیة"
+         },
+         {
+            "nom_liste_fr": "Fyq",
+            "nom_liste_ar": "فیق"
+         },
+         {
+            "nom_liste_fr": "Gafsa Aljadyda",
+            "nom_liste_ar": "قفصة الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Gafsa Aljamyla",
+            "nom_liste_ar": "قفصة الجمیلة"
+         },
+         {
+            "nom_liste_fr": "Ghadwa Khyr",
+            "nom_liste_ar": "غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Ghadwat Khyr",
+            "nom_liste_ar": "غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Ghanush - Madynati",
+            "nom_liste_ar": "غنوش - مدینتي"
+         },
+         {
+            "nom_liste_fr": "Ghar Aldima Ghoudwa Khyr",
+            "nom_liste_ar": "غار الدماء غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Ghodwa Khir",
+            "nom_liste_ar": "غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Ghomrassin Fi Alqalb",
+            "nom_liste_ar": "غمراسن في القلب"
+         },
+         {
+            "nom_liste_fr": "Grombalia Alghad",
+            "nom_liste_ar": "قرمبالیة الغد"
+         },
+         {
+            "nom_liste_fr": "Hadharat Mawt",
+            "nom_liste_ar": "حضر موت"
+         },
+         {
+            "nom_liste_fr": "Hamam Al'Anf Almansoura",
+            "nom_liste_ar": "حمام الانف المنصورة"
+         },
+         {
+            "nom_liste_fr": "Hamam Al'Anf Fi Inina",
+            "nom_liste_ar": "حمام الأنف في عینینا"
+         },
+         {
+            "nom_liste_fr": "Hamat Alwatan",
+            "nom_liste_ar": "حماة الوطن"
+         },
+         {
+            "nom_liste_fr": "Hamat Carthage",
+            "nom_liste_ar": "حماة قرطاج"
+         },
+         {
+            "nom_liste_fr": "Hannabal",
+            "nom_liste_ar": "حنبعل"
+         },
+         {
+            "nom_liste_fr": "Haqouna",
+            "nom_liste_ar": "حقنا"
+         },
+         {
+            "nom_liste_fr": "Harakat Aladl W Altanwir",
+            "nom_liste_ar": "حركة العدل و التنویر"
+         },
+         {
+            "nom_liste_fr": "Harakat Alshabab",
+            "nom_liste_ar": "حركة الشباب"
+         },
+         {
+            "nom_liste_fr": "Hargula Amena",
+            "nom_liste_ar": "ھرقلة أمانة"
+         },
+         {
+            "nom_liste_fr": "Hayat Karyma",
+            "nom_liste_ar": "حیاة كریمة"
+         },
+         {
+            "nom_liste_fr": "Hib Bladik",
+            "nom_liste_ar": "حب بلادك"
+         },
+         {
+            "nom_liste_fr": "Houmat Almarsaa",
+            "nom_liste_ar": "حماة المرسى"
+         },
+         {
+            "nom_liste_fr": "Hydra Tatabadal",
+            "nom_liste_ar": "حیدرة تتبدل"
+         },
+         {
+            "nom_liste_fr": "Iiaadat Al'Amal",
+            "nom_liste_ar": "إعادة الأمل"
+         },
+         {
+            "nom_liste_fr": "Iilaa Alaamal",
+            "nom_liste_ar": "إلى العمل"
+         },
+         {
+            "nom_liste_fr": "Iilaa Al'Amam",
+            "nom_liste_ar": "الى الامام"
+         },
+         {
+            "nom_liste_fr": "Iineq Alaa Bladik",
+            "nom_liste_ar": "عینك على بلادك"
+         },
+         {
+            "nom_liste_fr": "Iiqlae",
+            "nom_liste_ar": "إقلاع"
+         },
+         {
+            "nom_liste_fr": "Iirada Wa Amal",
+            "nom_liste_ar": "ارادة وامل"
+         },
+         {
+            "nom_liste_fr": "Iiradat Alhyat",
+            "nom_liste_ar": "ارادة الحیاة"
+         },
+         {
+            "nom_liste_fr": "Iiradat Alshabab Almustaqil",
+            "nom_liste_ar": "ارادة الشباب المستقل"
+         },
+         {
+            "nom_liste_fr": "Iislah Almasar",
+            "nom_liste_ar": "إصلاح المسار"
+         },
+         {
+            "nom_liste_fr": "Ikhdim Biladik",
+            "nom_liste_ar": "أخدم بلادك"
+         },
+         {
+            "nom_liste_fr": "Ithad Ahali Sokra",
+            "nom_liste_ar": "إتحاد أھالي سكرة"
+         },
+         {
+            "nom_liste_fr": "Ithad Al'Ahrar",
+            "nom_liste_ar": "إتحاد الأحرار"
+         },
+         {
+            "nom_liste_fr": "Ithad Shabab Emyr",
+            "nom_liste_ar": "إتحاد شباب عمیرة"
+         },
+         {
+            "nom_liste_fr": "Itihad Shabab Grombalia",
+            "nom_liste_ar": "اتحاد شباب قرمبالیة"
+         },
+         {
+            "nom_liste_fr": "Ittihad Almdhilat",
+            "nom_liste_ar": "إتحاد المظیلة"
+         },
+         {
+            "nom_liste_fr": "Ittihad Sidi Makhluf",
+            "nom_liste_ar": "إتحاد سیدي مخلوف"
+         },
+         {
+            "nom_liste_fr": "Iyd Wahda",
+            "nom_liste_ar": "إید وحدة"
+         },
+         {
+            "nom_liste_fr": "Iyd Wahida",
+            "nom_liste_ar": "إید واحدة"
+         },
+         {
+            "nom_liste_fr": "Jadalyan Awlan",
+            "nom_liste_ar": "جدلیان اولا"
+         },
+         {
+            "nom_liste_fr": "Jammal Biladouna",
+            "nom_liste_ar": "جمال بلادنا"
+         },
+         {
+            "nom_liste_fr": "Jawdat Alhayat",
+            "nom_liste_ar": "جودة الحیاة"
+         },
+         {
+            "nom_liste_fr": "Jerba Rawyt 'Ukhraa",
+            "nom_liste_ar": "جربة رؤیة أخرى"
+         },
+         {
+            "nom_liste_fr": "Jerba Tajamaena",
+            "nom_liste_ar": "جربة تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Judhur W 'Ajniha",
+            "nom_liste_ar": "جذور و أجنحة"
+         },
+         {
+            "nom_liste_fr": "Jumin 'Iilaa Al'Amam",
+            "nom_liste_ar": "جومین إلى الأمام"
+         },
+         {
+            "nom_liste_fr": "Kelibya Aleazyza",
+            "nom_liste_ar": "قلیبیة العزیزة"
+         },
+         {
+            "nom_liste_fr": "Kelibya Fi Eynyna",
+            "nom_liste_ar": "قلیبیة في عینینا"
+         },
+         {
+            "nom_liste_fr": "Khudh Haqak",
+            "nom_liste_ar": "خوذ حقك"
+         },
+         {
+            "nom_liste_fr": "Kindar Liljamyea",
+            "nom_liste_ar": "كندار للجمیع"
+         },
+         {
+            "nom_liste_fr": "Klna Am Alearayis",
+            "nom_liste_ar": "كلنا ام العرائس"
+         },
+         {
+            "nom_liste_fr": "Klna Kerkennah",
+            "nom_liste_ar": "كلنا قرقنة"
+         },
+         {
+            "nom_liste_fr": "Klna Tawansa",
+            "nom_liste_ar": "كلنا توانسة"
+         },
+         {
+            "nom_liste_fr": "Kolna Alsomoa",
+            "nom_liste_ar": "كلنا الصمعة"
+         },
+         {
+            "nom_liste_fr": "Kolna Boumirdas",
+            "nom_liste_ar": "كلنا بومرداس"
+         },
+         {
+            "nom_liste_fr": "Kolna Nabeul",
+            "nom_liste_ar": "كلنا نابل"
+         },
+         {
+            "nom_liste_fr": "Kolna Qasybat Almudyounii",
+            "nom_liste_ar": "كلنا قصیبة المدیوني"
+         },
+         {
+            "nom_liste_fr": "Kolna Shabab",
+            "nom_liste_ar": "كلنا شباب"
+         },
+         {
+            "nom_liste_fr": "Kolna Soussa",
+            "nom_liste_ar": "كلنا لسوسة"
+         },
+         {
+            "nom_liste_fr": "Kolouna Zaghouan",
+            "nom_liste_ar": "كلنا زغوان"
+         },
+         {
+            "nom_liste_fr": "Kouwka Alghad",
+            "nom_liste_ar": "كوكة الغد"
+         },
+         {
+            "nom_liste_fr": "La ... Naam",
+            "nom_liste_ar": "لا ... نعم"
+         },
+         {
+            "nom_liste_fr": "La Rencontre Démocratique",
+            "nom_liste_ar": "اللقاء الدیمقراطي"
+         },
+         {
+            "nom_liste_fr": "La Rencontre Démocratique",
+            "nom_liste_ar": "حزب اللقاء الدیمقراطي"
+         },
+         {
+            "nom_liste_fr": "Lam Alshaml",
+            "nom_liste_ar": "لمّ الشمل"
+         },
+         {
+            "nom_liste_fr": "Lam Alshaml Lil'Iiqlae",
+            "nom_liste_ar": "لم الشمل للإقلاع"
+         },
+         {
+            "nom_liste_fr": "Lazimna Naqifuu Lilqalea",
+            "nom_liste_ar": "لازمنا ناقفوا للقلعة"
+         },
+         {
+            "nom_liste_fr": "Li'Ihya' Alkayrawan",
+            "nom_liste_ar": "لإحیاء القیروان"
+         },
+         {
+            "nom_liste_fr": "Linabni Hyat Afdal",
+            "nom_liste_ar": "لنبني حیاة أفضل"
+         },
+         {
+            "nom_liste_fr": "Linazrae Al'Amal",
+            "nom_liste_ar": "لنزرع الأمل"
+         },
+         {
+            "nom_liste_fr": "L'Initiative",
+            "nom_liste_ar": "المبادرة"
+         },
+         {
+            "nom_liste_fr": "L'Initiative",
+            "nom_liste_ar": "حزب المبادرة"
+         },
+         {
+            "nom_liste_fr": "Lkolna Bardou",
+            "nom_liste_ar": "الكلنا باردو"
+         },
+         {
+            "nom_liste_fr": "Lmbara",
+            "nom_liste_ar": "لمبارة"
+         },
+         {
+            "nom_liste_fr": "Ma Fatna Shay",
+            "nom_liste_ar": "ما فاتنا شي"
+         },
+         {
+            "nom_liste_fr": "Ma Nsalmush Fi Biladna",
+            "nom_liste_ar": "ما نسلموش في بلادنا"
+         },
+         {
+            "nom_liste_fr": "Maa Baadhna Khyr",
+            "nom_liste_ar": "مع بعضنا خیر"
+         },
+         {
+            "nom_liste_fr": "Maan Nabani Alhashashina",
+            "nom_liste_ar": "معا نبني الحشاشنة"
+         },
+         {
+            "nom_liste_fr": "Maan Nahwa Mustaqbal 'Afdhal",
+            "nom_liste_ar": "معا نحو مستقبل أفضل"
+         },
+         {
+            "nom_liste_fr": "Machrouana",
+            "nom_liste_ar": "مشروعنا"
+         },
+         {
+            "nom_liste_fr": "Machrouu Tounes",
+            "nom_liste_ar": "حركة مشروع تونس"
+         },
+         {
+            "nom_liste_fr": "Madinati Tunis",
+            "nom_liste_ar": "مدینتي تونس"
+         },
+         {
+            "nom_liste_fr": "Madynati",
+            "nom_liste_ar": "مدینتي"
+         },
+         {
+            "nom_liste_fr": "Madynatouna",
+            "nom_liste_ar": "مدینتنا"
+         },
+         {
+            "nom_liste_fr": "Maeaan",
+            "nom_liste_ar": "معا"
+         },
+         {
+            "nom_liste_fr": "Malulsh Awlan",
+            "nom_liste_ar": "ملولش أولا"
+         },
+         {
+            "nom_liste_fr": "Manarat Almahdya",
+            "nom_liste_ar": "منارة المھدیة"
+         },
+         {
+            "nom_liste_fr": "Manouba Aljamyla",
+            "nom_liste_ar": "منوبة الجمیلة"
+         },
+         {
+            "nom_liste_fr": "Manouba Mashrouei",
+            "nom_liste_ar": "منوبة مشروعي"
+         },
+         {
+            "nom_liste_fr": "Manzil Tamym 'Iilaa Al'Amam",
+            "nom_liste_ar": "منزل تمیم الى الأمام"
+         },
+         {
+            "nom_liste_fr": "Marith Awalan",
+            "nom_liste_ar": "مارث اولا"
+         },
+         {
+            "nom_liste_fr": "Mashrou' Tunis Alghad",
+            "nom_liste_ar": "مشروع ةونس الغد"
+         },
+         {
+            "nom_liste_fr": "Mashrueuna Litanmiya",
+            "nom_liste_ar": "مشروعنا للتنمیة"
+         },
+         {
+            "nom_liste_fr": "Mawtini",
+            "nom_liste_ar": "موطني"
+         },
+         {
+            "nom_liste_fr": "Megrin Al Tahadi",
+            "nom_liste_ar": "مقرین التحدي"
+         },
+         {
+            "nom_liste_fr": "Megrin Lilruqey Almadanii",
+            "nom_liste_ar": "مقرین للرقي المدني"
+         },
+         {
+            "nom_liste_fr": "Métlaoui Awlaan",
+            "nom_liste_ar": "المتلوي أولا"
+         },
+         {
+            "nom_liste_fr": "Métlaoui Mustaqbalina",
+            "nom_liste_ar": "المتلوي مستقبلنا"
+         },
+         {
+            "nom_liste_fr": "Midnyn Afdhal",
+            "nom_liste_ar": "مدنین أفضل"
+         },
+         {
+            "nom_liste_fr": "Miftah Alnajah",
+            "nom_liste_ar": "مفتاح النجاح"
+         },
+         {
+            "nom_liste_fr": "Min Ajl Al'Abyadh",
+            "nom_liste_ar": "من أجل الأبیض"
+         },
+         {
+            "nom_liste_fr": "Min Ajl Alqayrawan",
+            "nom_liste_ar": "من أجل القیروان"
+         },
+         {
+            "nom_liste_fr": "Min Ajl Altanmiya",
+            "nom_liste_ar": "من أجل التنمیة"
+         },
+         {
+            "nom_liste_fr": "Min Houna Nabda",
+            "nom_liste_ar": "من ھنا نبدأ"
+         },
+         {
+            "nom_liste_fr": "Minkum W Fykom",
+            "nom_liste_ar": "منكم و فیكم"
+         },
+         {
+            "nom_liste_fr": "Moknin Almustaqbal",
+            "nom_liste_ar": "مكنین المستقبل"
+         },
+         {
+            "nom_liste_fr": "Mornag Bawabat Alkhyr",
+            "nom_liste_ar": "مرناق بوابة الخیر"
+         },
+         {
+            "nom_liste_fr": "Mouvement De La Lutte Patriotique",
+            "nom_liste_ar": "النضال الوطني"
+         },
+         {
+            "nom_liste_fr": "Mouvement Démocrate",
+            "nom_liste_ar": "الحركة الدیمقراطیة"
+         },
+         {
+            "nom_liste_fr": "Mouvement Démocrate socialiste",
+            "nom_liste_ar": "حركة الدیمقراطیین الاجتماعیین"
+         },
+         {
+            "nom_liste_fr": "Mouvement Du Peuple",
+            "nom_liste_ar": "حركة الشعب"
+         },
+         {
+            "nom_liste_fr": "Mouvement Du Peuple",
+            "nom_liste_ar": "حزب حركة الشعب"
+         },
+         {
+            "nom_liste_fr": "Msakin Tourid",
+            "nom_liste_ar": "مساكن ترید"
+         },
+         {
+            "nom_liste_fr": "Muatinun",
+            "nom_liste_ar": "مواطنون"
+         },
+         {
+            "nom_liste_fr": "Muhris Alghad",
+            "nom_liste_ar": "محرس الغد"
+         },
+         {
+            "nom_liste_fr": "Mustaqbal Alshryfat-Bousharay",
+            "nom_liste_ar": "مستقبل الشریفات-بوشراي"
+         },
+         {
+            "nom_liste_fr": "Mustaqbal Biladi",
+            "nom_liste_ar": "مستقبل بلادي"
+         },
+         {
+            "nom_liste_fr": "Mustaqbal Hajib Al Aayoun",
+            "nom_liste_ar": "مستقبل حاجب العیون"
+         },
+         {
+            "nom_liste_fr": "Mustaqbal Makthar",
+            "nom_liste_ar": "مستقبل مكثر"
+         },
+         {
+            "nom_liste_fr": "Mustaqbal Wadi Alil",
+            "nom_liste_ar": "مستقبل وادي اللیل"
+         },
+         {
+            "nom_liste_fr": "Mustaqbalina Biaydyna",
+            "nom_liste_ar": "مستقبلنا بأیدینا"
+         },
+         {
+            "nom_liste_fr": "Mustaqilat Al'Amal",
+            "nom_liste_ar": "مستقلة الأمل"
+         },
+         {
+            "nom_liste_fr": "Mustaqiloun",
+            "nom_liste_ar": "مستقلون"
+         },
+         {
+            "nom_liste_fr": "Mutatawioun Litanmyt Abida",
+            "nom_liste_ar": "متطوعون لتنمیة عبیدة"
+         },
+         {
+            "nom_liste_fr": "Muwatinun",
+            "nom_liste_ar": "مواطنون"
+         },
+         {
+            "nom_liste_fr": "Mydoun Almustaqbal",
+            "nom_liste_ar": "میدون المستقبل"
+         },
+         {
+            "nom_liste_fr": "Nabdh Hamam Al'Anf",
+            "nom_liste_ar": "نبض حمام الانف"
+         },
+         {
+            "nom_liste_fr": "Nabeul Fi Aleilalii",
+            "nom_liste_ar": "نابل في العلالي"
+         },
+         {
+            "nom_liste_fr": "Nabeul Mashrueina",
+            "nom_liste_ar": "نابل مشروعنا"
+         },
+         {
+            "nom_liste_fr": "Nabyl Atig",
+            "nom_liste_ar": "نبیل عتیق"
+         },
+         {
+            "nom_liste_fr": "Nadhef#",
+            "nom_liste_ar": "نظف#"
+         },
+         {
+            "nom_liste_fr": "Nadhour Asala W Karama",
+            "nom_liste_ar": "الناظور أصالة و كرامة"
+         },
+         {
+            "nom_liste_fr": "Nahw Ghad 'Afdhal",
+            "nom_liste_ar": "نحو غد أفضل"
+         },
+         {
+            "nom_liste_fr": "Najmat Alwasat",
+            "nom_liste_ar": "نجمة الوسط"
+         },
+         {
+            "nom_liste_fr": "Nakhdumou Biladna",
+            "nom_liste_ar": "نخدموا بلادنا"
+         },
+         {
+            "nom_liste_fr": "Nartaqi",
+            "nom_liste_ar": "نرتقي"
+         },
+         {
+            "nom_liste_fr": "Nas Al Bilad",
+            "nom_liste_ar": "ناس البلاد"
+         },
+         {
+            "nom_liste_fr": "Nas Alkhyr",
+            "nom_liste_ar": "ناس الخیر"
+         },
+         {
+            "nom_liste_fr": "Natahid",
+            "nom_liste_ar": "نتحد"
+         },
+         {
+            "nom_liste_fr": "Nbr Almustaqbal",
+            "nom_liste_ar": "نبر المستقبل"
+         },
+         {
+            "nom_liste_fr": "Nbr Tajamaouna",
+            "nom_liste_ar": "نبر تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Nebnou Maa Baadhna",
+            "nom_liste_ar": "نبنو مع بعضنا"
+         },
+         {
+            "nom_liste_fr": "Nefza Almustaqbal",
+            "nom_liste_ar": "نفزة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Nefza Fi Inina",
+            "nom_liste_ar": "نفزة في عینینا"
+         },
+         {
+            "nom_liste_fr": "Nfidha Alghad Al'Afdal",
+            "nom_liste_ar": "النفیضة الغد الأفضل"
+         },
+         {
+            "nom_liste_fr": "Nfidha Almustaqbal",
+            "nom_liste_ar": "النفیضة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Nhebek Ya Biladi",
+            "nom_liste_ar": "نحبك یا بلادي"
+         },
+         {
+            "nom_liste_fr": "Nidaa Tounes",
+            "nom_liste_ar": "حركة نداء تونس"
+         },
+         {
+            "nom_liste_fr": "Nouhibk Ya Bkalta",
+            "nom_liste_ar": "نحبك یا بقالطة"
+         },
+         {
+            "nom_liste_fr": "Nour Almustaqbal",
+            "nom_liste_ar": "نور المستقبل"
+         },
+         {
+            "nom_liste_fr": "Parti De L'Avenir",
+            "nom_liste_ar": "حزب المستقبل"
+         },
+         {
+            "nom_liste_fr": "Parti Des Verts Pour Le Progrès",
+            "nom_liste_ar": "الخضر للتقدم"
+         },
+         {
+            "nom_liste_fr": "Parti Destourien Libre Pdl",
+            "nom_liste_ar": "الحزب الدستوري الحر"
+         },
+         {
+            "nom_liste_fr": "Parti Socialiste",
+            "nom_liste_ar": "الحزب الاشتراكي"
+         },
+         {
+            "nom_liste_fr": "Qadamoun...",
+            "nom_liste_ar": "قادمون..."
+         },
+         {
+            "nom_liste_fr": "Qaramdat Ghadwat Khyr",
+            "nom_liste_ar": "قرمدة غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Qasr Hal 'Iilaa Al'Amam",
+            "nom_liste_ar": "قصرھلال إلى الأمام"
+         },
+         {
+            "nom_liste_fr": "Qayima \"Alhukm Almahalli\" Almustaqilat Bialqasr - Gafsa",
+            "nom_liste_ar": "قائمة \"الحكم المحلى\" المستقلة بالقصر - قفصة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al Asala Bi Malulsh",
+            "nom_liste_ar": "قائمة الأصالة بملولش"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al Eyn",
+            "nom_liste_ar": "قائمة العین"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al Oubour",
+            "nom_liste_ar": "قائمة العبور"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alaimtyaz",
+            "nom_liste_ar": "قائمة الامتیاز"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Amal",
+            "nom_liste_ar": "قائمة الأمل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Amal Aljadyd",
+            "nom_liste_ar": "قائمة الامل الجدید"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Amal Almustaqila",
+            "nom_liste_ar": "قائمة الأمل المستقلة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Amal W Altahadiy",
+            "nom_liste_ar": "قائمة الأمل و التحدي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Albina' W Altjdid",
+            "nom_liste_ar": "قائمة البناء و التجدید"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alburii",
+            "nom_liste_ar": "قائمة البوري"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alhaj Khamysi Dbyawi",
+            "nom_liste_ar": "قائمة الحاج خمیسي دبیاوي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alhyat W Al'Ardh",
+            "nom_liste_ar": "قائمة الحیاة و الأرض"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Iiemar",
+            "nom_liste_ar": "قائمة الإعمار"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Iimtyaz",
+            "nom_liste_ar": "قائمة الإمتیاز"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Iinqadh Lilaamal Albaladii",
+            "nom_liste_ar": "قائمة الانقاذ للعمل البلدي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Iislah",
+            "nom_liste_ar": "قائمة الإصلاح"
+         },
+         {
+            "nom_liste_fr": "Qayimat Al'Iislah W Altnmya Libaladeyyat Alrakhmaat",
+            "nom_liste_ar": "قائمة الإصلاح و التنمیة لبلدیة الرخمات"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alkhyr",
+            "nom_liste_ar": "قائمة الخیر"
+         },
+         {
+            "nom_liste_fr": "Qayimat Almahaba",
+            "nom_liste_ar": "قائمة المحبة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Almasyr",
+            "nom_liste_ar": "قائمة المصیر"
+         },
+         {
+            "nom_liste_fr": "Qayimat Almustaqbal",
+            "nom_liste_ar": "قائمة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alshabab Almustaqbil",
+            "nom_liste_ar": "قائمة الشباب المستقل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alshabab Almustaqili",
+            "nom_liste_ar": "قائمة الشباب المستقل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alshirae",
+            "nom_liste_ar": "قائمة الشراع"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alssaf Lil Biaa W Al Tanmiya",
+            "nom_liste_ar": "قائمة الساف للبیئة و التنمیة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Altahadi",
+            "nom_liste_ar": "قائمة التحدي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Altasys",
+            "nom_liste_ar": "قائمة التأسیس"
+         },
+         {
+            "nom_liste_fr": "Qayimat Althabat",
+            "nom_liste_ar": "قائمة الثبات"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alwafa' Lilshuhadaa'",
+            "nom_liste_ar": "قائمة الوفاء للشھداء"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alward",
+            "nom_liste_ar": "قائمة الورد"
+         },
+         {
+            "nom_liste_fr": "Qayimat Alzzytouna",
+            "nom_liste_ar": "قائمة الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Qayimat 'Amal",
+            "nom_liste_ar": "قائمة أمل"
+         },
+         {
+            "nom_liste_fr": "Qayimat 'Amal ...Nahwa Ghad 'Afdhal",
+            "nom_liste_ar": "قائمة أمل ...نحو غد أفضل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Ghadwa Khyr",
+            "nom_liste_ar": "قائمة غدوة خیر"
+         },
+         {
+            "nom_liste_fr": "Qayimat 'Iislah Weamar",
+            "nom_liste_ar": "قائمة اصلاح واعمار"
+         },
+         {
+            "nom_liste_fr": "Qayimat Kafa'At",
+            "nom_liste_ar": "قائمة كفاءات"
+         },
+         {
+            "nom_liste_fr": "Qayimat Linartaqi",
+            "nom_liste_ar": "قائمة لنرتقي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Maeaan Nartaqi",
+            "nom_liste_ar": "قائمة معا نرتقي"
+         },
+         {
+            "nom_liste_fr": "Qayimat Manzil Bouzayan",
+            "nom_liste_ar": "قائمة منزل بوزیان"
+         },
+         {
+            "nom_liste_fr": "Qayimat Midnyn Liltanmya",
+            "nom_liste_ar": "قائمة مدنین للتنمیة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Mustqilta-Al'Iithad-",
+            "nom_liste_ar": "قائمة مستقلة-الإتحاد-"
+         },
+         {
+            "nom_liste_fr": "Qayimat Muwatin Almustaqila Min Ajl Ghad 'Afdhal",
+            "nom_liste_ar": "قائمة مواطن المستقلة من أجل غد أفضل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Naam Nstatye",
+            "nom_liste_ar": "قائمة نعم نستطیع"
+         },
+         {
+            "nom_liste_fr": "Qayimat Nida' Alwajib",
+            "nom_liste_ar": "قائمة نداء الواجب"
+         },
+         {
+            "nom_liste_fr": "Qayimat Shabab Almustaqbal",
+            "nom_liste_ar": "قائمة شباب المستقبل"
+         },
+         {
+            "nom_liste_fr": "Qayimat Shabab Alqusur Almustaqila",
+            "nom_liste_ar": "قائمة شباب القصور المستقلة"
+         },
+         {
+            "nom_liste_fr": "Qayimat Shabab Nafta",
+            "nom_liste_ar": "قائمة شباب نفطة"
+         },
+         {
+            "nom_liste_fr": "Qitar Altnmya",
+            "nom_liste_ar": "قطار التنمیة"
+         },
+         {
+            "nom_liste_fr": "Qubilat Aljadyda",
+            "nom_liste_ar": "قبلاط الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Qutuna Fi Mahabatina",
+            "nom_liste_ar": "قوتنا في محبتنا"
+         },
+         {
+            "nom_liste_fr": "Rabye Alhurrya",
+            "nom_liste_ar": "ربیع الحریة"
+         },
+         {
+            "nom_liste_fr": "Rada Al'Ietibar",
+            "nom_liste_ar": "رد الإعتبار"
+         },
+         {
+            "nom_liste_fr": "Rads Taaich",
+            "nom_liste_ar": "رادس تعیش"
+         },
+         {
+            "nom_liste_fr": "Ras Aljabal Mataana El Kol",
+            "nom_liste_ar": "راس الجبل متاعنا الكل"
+         },
+         {
+            "nom_liste_fr": "Rawytuna Tafuq Nadhafat Madynatina",
+            "nom_liste_ar": "رؤیتنا تفوق نظافة مدینتنا"
+         },
+         {
+            "nom_liste_fr": "Redeyef Awlaan",
+            "nom_liste_ar": "الردیف أولا"
+         },
+         {
+            "nom_liste_fr": "Rihan Alshabab",
+            "nom_liste_ar": "رھان الشباب"
+         },
+         {
+            "nom_liste_fr": "Rijal Nisa' W Shabab Alkram",
+            "nom_liste_ar": "رجال نساء و شباب الكرم"
+         },
+         {
+            "nom_liste_fr": "Roaya",
+            "nom_liste_ar": "رؤیة"
+         },
+         {
+            "nom_liste_fr": "Ryadt Bnan Boudhr",
+            "nom_liste_ar": "ریادة بنان بوضر"
+         },
+         {
+            "nom_liste_fr": "Ryf Almadyna",
+            "nom_liste_ar": "ریف المدینة"
+         },
+         {
+            "nom_liste_fr": "Ryhana",
+            "nom_liste_ar": "ریحانة"
+         },
+         {
+            "nom_liste_fr": "Salyman Almazyana",
+            "nom_liste_ar": "سلیمان المزیانة"
+         },
+         {
+            "nom_liste_fr": "Salyman Fi Alqalb",
+            "nom_liste_ar": "سلیمان في القلب"
+         },
+         {
+            "nom_liste_fr": "Sanabil Alkiryb",
+            "nom_liste_ar": "سنابل الكریب"
+         },
+         {
+            "nom_liste_fr": "Sawaeid Al'Ahrar",
+            "nom_liste_ar": "سواعد الاحرار"
+         },
+         {
+            "nom_liste_fr": "Sawaeid Alhur",
+            "nom_liste_ar": "سواعد الحر"
+         },
+         {
+            "nom_liste_fr": "Sawaeid Soussa",
+            "nom_liste_ar": "سواعد سوسة"
+         },
+         {
+            "nom_liste_fr": "Sawaf Tataqadam",
+            "nom_liste_ar": "صواف تتقدم"
+         },
+         {
+            "nom_liste_fr": "Sawt Alfawar",
+            "nom_liste_ar": "صوت الفوار"
+         },
+         {
+            "nom_liste_fr": "Sawt Alhaq",
+            "nom_liste_ar": "صوت الحق"
+         },
+         {
+            "nom_liste_fr": "Sawt Aljiha",
+            "nom_liste_ar": "صوت الجھة"
+         },
+         {
+            "nom_liste_fr": "Sawt Almustaqbal",
+            "nom_liste_ar": "صوت المستقبل"
+         },
+         {
+            "nom_liste_fr": "Sawt Alshabab",
+            "nom_liste_ar": "صوت الشباب"
+         },
+         {
+            "nom_liste_fr": "Sawt Alwajib",
+            "nom_liste_ar": "صوت الواجب"
+         },
+         {
+            "nom_liste_fr": "Sawt Ettounsi",
+            "nom_liste_ar": "حزب صوت التونسي"
+         },
+         {
+            "nom_liste_fr": "Sawt Tbarka",
+            "nom_liste_ar": "صوت طبرقة"
+         },
+         {
+            "nom_liste_fr": "Sawtik 'Amana",
+            "nom_liste_ar": "صوتك امانة"
+         },
+         {
+            "nom_liste_fr": "Sawtouna",
+            "nom_liste_ar": "صوتنا"
+         },
+         {
+            "nom_liste_fr": "Sbyba Afdhal",
+            "nom_liste_ar": "سبیبة أفضل"
+         },
+         {
+            "nom_liste_fr": "Sbyba Awlan",
+            "nom_liste_ar": "سبیبة اولا"
+         },
+         {
+            "nom_liste_fr": "Shabab Al Mdhila",
+            "nom_liste_ar": "شباب المظیلة"
+         },
+         {
+            "nom_liste_fr": "Shabab Aljarid",
+            "nom_liste_ar": "شباب الجرید"
+         },
+         {
+            "nom_liste_fr": "Shabab Almaemurat Almustaqil",
+            "nom_liste_ar": "شباب المعمورة المستقل"
+         },
+         {
+            "nom_liste_fr": "Shabab Almourouj",
+            "nom_liste_ar": "شباب المروج"
+         },
+         {
+            "nom_liste_fr": "Shabab Almustaqbal",
+            "nom_liste_ar": "شباب المستقبل"
+         },
+         {
+            "nom_liste_fr": "Shabab Altahadi Bilbukalta",
+            "nom_liste_ar": "شباب التحدي بالبقالطة"
+         },
+         {
+            "nom_liste_fr": "Shabab Darjin",
+            "nom_liste_ar": "شباب درجین"
+         },
+         {
+            "nom_liste_fr": "Shabab Huzwat Al'Ahrar",
+            "nom_liste_ar": "شباب حزوة الأحرار"
+         },
+         {
+            "nom_liste_fr": "Shabab Jendouba Almustaqil",
+            "nom_liste_ar": "شباب جندوبة المستقل"
+         },
+         {
+            "nom_liste_fr": "Shabab Lilaamal",
+            "nom_liste_ar": "شباب للعمل"
+         },
+         {
+            "nom_liste_fr": "Shabab Min Ajl Altanmya",
+            "nom_liste_ar": "شباب من أجل التنمیة"
+         },
+         {
+            "nom_liste_fr": "Shabab Mornag",
+            "nom_liste_ar": "شباب مرناق"
+         },
+         {
+            "nom_liste_fr": "Shabab Raoued Alhur",
+            "nom_liste_ar": "شباب رواد الحر"
+         },
+         {
+            "nom_liste_fr": "Shabab Sbyba",
+            "nom_liste_ar": "شباب سبیبة"
+         },
+         {
+            "nom_liste_fr": "Shabab Silyana",
+            "nom_liste_ar": "شباب سلیانة"
+         },
+         {
+            "nom_liste_fr": "Shabab Tastour",
+            "nom_liste_ar": "شباب تستور"
+         },
+         {
+            "nom_liste_fr": "Shabab Tawrgha",
+            "nom_liste_ar": "شباب تاورغة"
+         },
+         {
+            "nom_liste_fr": "Shababana Mustaqbalina",
+            "nom_liste_ar": "شبابنا مستقبلنا"
+         },
+         {
+            "nom_liste_fr": "Shamaat Alwatan",
+            "nom_liste_ar": "شمعة الوطن"
+         },
+         {
+            "nom_liste_fr": "Shams Aljanoub",
+            "nom_liste_ar": "شمس الجنوب"
+         },
+         {
+            "nom_liste_fr": "Shay Ma Ytakhaba",
+            "nom_liste_ar": "شي ما یتخبا"
+         },
+         {
+            "nom_liste_fr": "Shihab Al Madrasa",
+            "nom_liste_ar": "شھاب المدرسة"
+         },
+         {
+            "nom_liste_fr": "Shirae Kerkennah",
+            "nom_liste_ar": "شراع قرقنة"
+         },
+         {
+            "nom_liste_fr": "Sidi Bousaid 'Assala W Mustaqbal",
+            "nom_liste_ar": "سيدي بوسعيد أصالة و مستقبل"
+         },
+         {
+            "nom_liste_fr": "Sidi Eali Bin Eawn Almustaqila",
+            "nom_liste_ar": "سیدي علي بن عون المستقلة"
+         },
+         {
+            "nom_liste_fr": "Sidi Eysh Awlaan",
+            "nom_liste_ar": "سیدي عیش أولا"
+         },
+         {
+            "nom_liste_fr": "Sidi Eysh Lil Jamye",
+            "nom_liste_ar": "سیدي عیش للجمیع"
+         },
+         {
+            "nom_liste_fr": "Sidi Hassin Alghad",
+            "nom_liste_ar": "سیدي حسین الغد"
+         },
+         {
+            "nom_liste_fr": "Sidi Hassin Awalan",
+            "nom_liste_ar": "سیدي حسین أولا"
+         },
+         {
+            "nom_liste_fr": "Silyana Barjalha Wanasaha",
+            "nom_liste_ar": "سلیانة برجالھا ونسائھا"
+         },
+         {
+            "nom_liste_fr": "Sokra Emdinetna",
+            "nom_liste_ar": "سكرة امدینتنا"
+         },
+         {
+            "nom_liste_fr": "Souk Al'Ahad Tajamaeuna",
+            "nom_liste_ar": "سوق الأحد تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Souq Al'Arbiaa'",
+            "nom_liste_ar": "سوق الاربعاء"
+         },
+         {
+            "nom_liste_fr": "Soussa Liljimye",
+            "nom_liste_ar": "سوسة للجمیع"
+         },
+         {
+            "nom_liste_fr": "Soussa Qawl Wafael",
+            "nom_liste_ar": "سوسة قول وفعل"
+         },
+         {
+            "nom_liste_fr": "Soutukum Amana",
+            "nom_liste_ar": "صوتكم أمانة"
+         },
+         {
+            "nom_liste_fr": "Swasyna",
+            "nom_liste_ar": "سواسینا"
+         },
+         {
+            "nom_liste_fr": "Syd Alkhanq",
+            "nom_liste_ar": "صید الخنق"
+         },
+         {
+            "nom_liste_fr": "Sysib Alkubraa",
+            "nom_liste_ar": "سیسب الكبرى"
+         },
+         {
+            "nom_liste_fr": "Taj Aldakhla",
+            "nom_liste_ar": "تاج الدخلة"
+         },
+         {
+            "nom_liste_fr": "Tajrouine Biladi",
+            "nom_liste_ar": "تاجروین بلادي"
+         },
+         {
+            "nom_liste_fr": "Tala Aljadida",
+            "nom_liste_ar": "تالة الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Taryq Alraffah",
+            "nom_liste_ar": "طریق الرفاه"
+         },
+         {
+            "nom_liste_fr": "Taryq Alraqi",
+            "nom_liste_ar": "طریق الرقي"
+         },
+         {
+            "nom_liste_fr": "Tashyh Almasar",
+            "nom_liste_ar": "تصحیح المسار"
+         },
+         {
+            "nom_liste_fr": "Tataouine Almustaqbal",
+            "nom_liste_ar": "تطاوین المستقبل"
+         },
+         {
+            "nom_liste_fr": "Tataouine Tajmaouna",
+            "nom_liste_ar": "تطاوین تجمعنا"
+         },
+         {
+            "nom_liste_fr": "Tawjan - Madynati",
+            "nom_liste_ar": "توجان - مدینتي"
+         },
+         {
+            "nom_liste_fr": "Tayar",
+            "nom_liste_ar": "طیارة"
+         },
+         {
+            "nom_liste_fr": "Tbarka Kif Ma Nhibouha",
+            "nom_liste_ar": "طبرقة كیف ما نحبوھا"
+         },
+         {
+            "nom_liste_fr": "Tbulba 'Afdhal",
+            "nom_liste_ar": "طبلبة أفضل"
+         },
+         {
+            "nom_liste_fr": "Tbulba Al'Amana",
+            "nom_liste_ar": "طبلبة الأمانة"
+         },
+         {
+            "nom_liste_fr": "Tebourba Almustaqbal",
+            "nom_liste_ar": "طبربة المستقبل"
+         },
+         {
+            "nom_liste_fr": "Thaqafat Alaimtyaz",
+            "nom_liste_ar": "ثقافة الامتیاز"
+         },
+         {
+            "nom_liste_fr": "Tharwat Bargou Fi Falahatha",
+            "nom_liste_ar": "ثروة برقو في فلاحتھا"
+         },
+         {
+            "nom_liste_fr": "Thya 'Awlad Hafuz",
+            "nom_liste_ar": "تحیا أولاد حفوز"
+         },
+         {
+            "nom_liste_fr": "Tibdyl Alsuruj Raha",
+            "nom_liste_ar": "تبدیل السروج راحة"
+         },
+         {
+            "nom_liste_fr": "Tinija Alyid Fel Alyid",
+            "nom_liste_ar": "تینجة الید في الید"
+         },
+         {
+            "nom_liste_fr": "Tlabet Almustaqbal",
+            "nom_liste_ar": "تلابت المستقبل"
+         },
+         {
+            "nom_liste_fr": "Tounes Awalan",
+            "nom_liste_ar": "حركة تونس أولا"
+         },
+         {
+            "nom_liste_fr": "Tuazat Alghad",
+            "nom_liste_ar": "طوزة الغد"
+         },
+         {
+            "nom_liste_fr": "Tumuh Almaemura",
+            "nom_liste_ar": "طموح المعمورة"
+         },
+         {
+            "nom_liste_fr": "Tumuhana",
+            "nom_liste_ar": "طموحنا"
+         },
+         {
+            "nom_liste_fr": "Tunis Fawq Rousna",
+            "nom_liste_ar": "تونس فوق رؤوسنا"
+         },
+         {
+            "nom_liste_fr": "Tynat Lil'Amam",
+            "nom_liste_ar": "طینة للأمام"
+         },
+         {
+            "nom_liste_fr": "Ufoq Jedeida",
+            "nom_liste_ar": "افق الجدیدة"
+         },
+         {
+            "nom_liste_fr": "Ufuq Fousana",
+            "nom_liste_ar": "افق فوسانة"
+         },
+         {
+            "nom_liste_fr": "Ufuq Tajrouine",
+            "nom_liste_ar": "أفق تاجروین"
+         },
+         {
+            "nom_liste_fr": "Uhibou Alshaba",
+            "nom_liste_ar": "أحب الشابة"
+         },
+         {
+            "nom_liste_fr": "Union Civile",
+            "nom_liste_ar": "الإتحاد المدني"
+         },
+         {
+            "nom_liste_fr": "Union Civile",
+            "nom_liste_ar": "الاتحاد المدني"
+         },
+         {
+            "nom_liste_fr": "Union Civile",
+            "nom_liste_ar": "الاتحاد المدني ببومھل"
+         },
+         {
+            "nom_liste_fr": "Union Populaire Républicaine",
+            "nom_liste_ar": "الإتحاد الشعبي الجمھوري"
+         },
+         {
+            "nom_liste_fr": "Utic",
+            "nom_liste_ar": "اوتیك"
+         },
+         {
+            "nom_liste_fr": "W Bihyth Thya Sidi Eysh",
+            "nom_liste_ar": "و بحیث تحیا سیدي عیش"
+         },
+         {
+            "nom_liste_fr": "Ward",
+            "nom_liste_ar": "ورد"
+         },
+         {
+            "nom_liste_fr": "Wardat Jabal Alwasat",
+            "nom_liste_ar": "وردة جبل الوسط"
+         },
+         {
+            "nom_liste_fr": "Warud Alrbye Ettounsi",
+            "nom_liste_ar": "ورود الربیع التونسي"
+         },
+         {
+            "nom_liste_fr": "Watani",
+            "nom_liste_ar": "وطني"
+         },
+         {
+            "nom_liste_fr": "Yasiin",
+            "nom_liste_ar": "یاسین"
+         },
+         {
+            "nom_liste_fr": "Zaghouan Al Iislah Houna Walaan",
+            "nom_liste_ar": "زغوان الإصلاح ھنا و الآن"
+         },
+         {
+            "nom_liste_fr": "Zaghouan Madinati",
+            "nom_liste_ar": "زغوان مدینتي"
+         },
+         {
+            "nom_liste_fr": "Zahrat Al Sod",
+            "nom_liste_ar": "زھرة السد"
+         },
+         {
+            "nom_liste_fr": "Zarzis Alhabyba",
+            "nom_liste_ar": "جرجیس الحبیبة"
+         },
+         {
+            "nom_liste_fr": "Zarzis Almustaqbal",
+            "nom_liste_ar": "جرجیس المستقبل"
+         },
+         {
+            "nom_liste_fr": "Zarzis Alta'Aluq",
+            "nom_liste_ar": "جرجیس التألق"
+         },
+         {
+            "nom_liste_fr": "Zarzis Awla",
+            "nom_liste_ar": "جرجیس اولا"
+         },
+         {
+            "nom_liste_fr": "Zitouna",
+            "nom_liste_ar": "الزیتونة"
+         },
+         {
+            "nom_liste_fr": "Zohour Alghad",
+            "nom_liste_ar": "زھور الغد"
+         }
+      ],
+      "_xmlns:od": "urn:schemas-microsoft-com:officedata",
+      "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "_xsi:noNamespaceSchemaLocation": "Parties%20names.xsd",
+      "_generated": "2019-07-08T12:55:56"
+   }
+}

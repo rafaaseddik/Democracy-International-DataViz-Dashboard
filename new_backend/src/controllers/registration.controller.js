@@ -1192,6 +1192,8 @@ router.get('/pollingData', (req, res) => {
 
 router.get('/resultsData', (req, res) => {
     let municipalityName = req.query.municipalityName;
+    //capitalize it
+    municipalityName = municipalityName.charAt(0).toUpperCase() + municipalityName.slice(1);
     console.info("[REGISTRATION] getting results data for " + municipalityName);
     res.json(
         {
@@ -1313,13 +1315,14 @@ router.get('/resultsData', (req, res) => {
 
 router.get('/getDataByMunNameFr', (req, res) => {
     let municipalityName = req.query.municipalityName;
+    //capitalize it
+    municipalityName = municipalityName.charAt(0).toUpperCase() + municipalityName.slice(1);
     registrationService.getDataByMunicipailityNameFr(municipalityName).then(result => {
         if (result.length>0) {
             res.json({
                 status: 200,
-                data: {
-                    municipality: result[0]
-                }
+                data:  result[0]
+
             });
         } else {
             res.status(404).json({
