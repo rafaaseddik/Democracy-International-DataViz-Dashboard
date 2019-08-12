@@ -1,22 +1,24 @@
 
-Tjavascript:S1128",Remove this unused import of 'FeatureGroup'.(Ÿ¸ë’ûÿÿÿÿ8ˆÓÛÈ»-
-Tjavascript:S1128",Remove this unused import of 'CircleMarker'.(¤¯åÛıÿÿÿÿ8ˆÓÛÈ»-
 Hjavascript:S1128	"%Remove this unused import of 'Popup'.(Ú‹ê¦8ˆÓÛÈ»-
-mjavascript:UnusedVariable„";Remove the declaration of the unused 'validVotes' variable.(­ë„£şÿÿÿÿ8Ëß¯É»-
-fjavascript:S1854">Remove this useless assignment to local variable "MAP_Turnout"(Ê•™ÿÿÿÿÿ8Ëß¯É»-
-ajavascript:S1854"=Remove this useless assignment to local variable "HOVER_INFO"(¾İ º8Ëß¯É»-
-ajavascript:S1854…"=Remove this useless assignment to local variable "Reg_Number"(†å„Ÿ8Ëß¯É»-
-ejavascript:S1854ƒ"ARemove this useless assignment to local variable "Polling_Number"(‚æ½Ç8Ëß¯É»-
-hjavascript:UnusedVariable";Remove the declaration of the unused 'HOVER_INFO' variable.(¾İ º8Ëß¯É»-
-_javascript:S1128"7Remove this unused import of 'general_results_per_mun'.(Èûöïÿÿÿÿÿ8®è¼É»-
-mjavascript:UnusedVariable"<Remove the declaration of the unused 'MAP_Turnout' variable.(Ê•™ÿÿÿÿÿ8Ëß¯É»-
-Ijavascript:S1128"&Remove this unused import of 'Circle'.(Í“˜é8ˆÓÛÈ»-
-cjavascript:S1854‚"?Remove this useless assignment to local variable "turnout_info"(Æâ³Ã8Ëß¯É»-
-hjavascript:UnusedVariable…";Remove the declaration of the unused 'Reg_Number' variable.(†å„Ÿ8Ëß¯É»-
-fjavascript:S1854„"=Remove this useless assignment to local variable "validVotes"(­ë„£şÿÿÿÿ8Ëß¯É»-
-cjavascript:S1854€":Remove this useless assignment to local variable "MAP_KEY"(Ÿ–ÚÃıÿÿÿÿ8Ëß¯É»-
-Ijavascript:S1128"&Remove this unused import of 'Marker'.(¬“¡Ê8ˆÓÛÈ»-
-jjavascript:UnusedVariable‚"=Remove the declaration of the unused 'turnout_info' variable.(Æâ³Ã8Ëß¯É»-
-jjavascript:UnusedVariable€"8Remove the declaration of the unused 'MAP_KEY' variable.(Ÿ–ÚÃıÿÿÿÿ8Ëß¯É»-
-ljavascript:UnusedVariableƒ"?Remove the declaration of the unused 'Polling_Number' variable.(‚æ½Ç8Ëß¯É»-
+cjavascript:S1854Â"?Remove this useless assignment to local variable "turnout_info"(şÉÖ8©ÂĞ‹½-
+ajavascript:S1854Á"=Remove this useless assignment to local variable "HOVER_INFO"(”şÖÏ8©ÂĞ‹½-
+ajavascript:S1854Å"=Remove this useless assignment to local variable "Reg_Number"(ı¬½˜8©ÂĞ‹½-
+bjavascript:S1854¿">Remove this useless assignment to local variable "MAP_Turnout"(İ±¡ä8©ÂĞ‹½-
+ljavascript:UnusedVariableÃ"?Remove the declaration of the unused 'Polling_Number' variable.(¦ö‚ã8©ÂĞ‹½-
+jjavascript:UnusedVariableÂ"=Remove the declaration of the unused 'turnout_info' variable.(şÉÖ8©ÂĞ‹½-
+hjavascript:UnusedVariableÅ";Remove the declaration of the unused 'Reg_Number' variable.(ı¬½˜8©ÂĞ‹½-
+^javascript:S1854À":Remove this useless assignment to local variable "MAP_KEY"(³¬ú§8©ÂĞ‹½-
+fjavascript:S1854Ä"=Remove this useless assignment to local variable "validVotes"(³Ççèıÿÿÿÿ8©ÂĞ‹½-
+Tjavascript:S1128",Remove this unused import of 'CircleMarker'.(¤¯åÛıÿÿÿÿ8ˆÓÛÈ»-
 Gjavascript:S1128"$Remove this unused import of 'Card'.(ÉçãÑ8Ò—ĞÈ»-
+mjavascript:UnusedVariableÄ";Remove the declaration of the unused 'validVotes' variable.(³Ççèıÿÿÿÿ8©ÂĞ‹½-
+hjavascript:UnusedVariableÁ";Remove the declaration of the unused 'HOVER_INFO' variable.(”şÖÏ8©ÂĞ‹½-
+Ijavascript:S1128"&Remove this unused import of 'Circle'.(Í“˜é8ˆÓÛÈ»-
+Tjavascript:S1128",Remove this unused import of 'FeatureGroup'.(Ÿ¸ë’ûÿÿÿÿ8ˆÓÛÈ»-
+Ijavascript:S1128"&Remove this unused import of 'Marker'.(¬“¡Ê8ˆÓÛÈ»-
+ejavascript:S1854Ã"ARemove this useless assignment to local variable "Polling_Number"(¦ö‚ã8©ÂĞ‹½-
+^javascript:S1854Æ":Remove this useless assignment to local variable "TURNOUT"(‰‘œá8ÂˆÜÙ¾-
+ejavascript:UnusedVariableÀ"8Remove the declaration of the unused 'MAP_KEY' variable.(³¬ú§8©ÂĞ‹½-
+_javascript:S1128"7Remove this unused import of 'general_results_per_mun'.(Èûöïÿÿÿÿÿ8®è¼É»-
+ejavascript:UnusedVariableÆ"8Remove the declaration of the unused 'TURNOUT' variable.(‰‘œá8ÂˆÜÙ¾-
+ijavascript:UnusedVariable¿"<Remove the declaration of the unused 'MAP_Turnout' variable.(İ±¡ä8©ÂĞ‹½-

@@ -2,227 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a0ce34d-0edc-47f1-92d2-db4a8acb44aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/new_backend/data/global-hierarchy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/mixed-clean-json-creator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/polling-data-extractor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/result-data-extractor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/clean/a.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/أكودة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/أم العرائس.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/أوتيك.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/أولاد حفوز.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/اجيم.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/البرادعة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/التلالسة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الجم.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الحاجب.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الحامة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الحبابسة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الحشاشنة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الحنشة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الرجيش.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الرخمات.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الرديف.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الرقاب.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الروحية.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الزارات.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الزهراء.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الزهور.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/السبيخة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/السند.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/السواسي.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الشابة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الشراردة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الشرايطية - القصور.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الصخيرة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العالية.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العامرة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العروسة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العلا.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العين.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/العيون.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الغريبة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الفائض بنور.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الفوار.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القصر.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القصرين.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القطار.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القلعة الصغرى.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القلعة الكبرى.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القلعة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/القيروان.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الكرم.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الكريب.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المتلوي.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المحمدية.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المرسى.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المروج.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المسعدين.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المطوية.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المكناسي.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المنصورة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/المهدية.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/النصر.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/النفيضة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/النور.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/الوسلاتية.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بئر الحفي.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بئر علي بن خليفة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/باردو.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/باطن الغزال.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/برقو.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بشري فطناسة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بلخير.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بن عروس.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بنزرت.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بني خداش.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوحجلة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بورويس.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوزقام.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوشمة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوعرادة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوغرارة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بوفيشة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بومرداس.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/بومهل البساتين.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/تالة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/تلابت.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/تينجة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جبنيانة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جدليان.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جرجيس الشمالية.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جرجيس.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جلمة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جمنة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جهينة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/جومين.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حاجب العيون.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حاسي الفريد.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حفوز.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حلق الوادي.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حمام الأنف.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حمام الشط.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حمام سوسة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حومة السوق.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/حيدرة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/خمودة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/دخيلة توجان.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/دوز.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رأس الجبل.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رادس.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رجيم معتوق.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رحال.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رفراف.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/رقادة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/زالبة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/زاوية سوسة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/ساقية الزيت.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سبالة أولاد عسكر.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سبيبة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سبيطلة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سجنان.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سليانة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سوسة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سوق الأحد.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سوق الجديد.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي الهاني.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي بوبكر.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي بوزيد.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي بوسعيد.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي بوعلي.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي علوان.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي علي بن عون.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي عيش.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي مخلوف.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/سيدي مرشد.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/شربان.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/شط مريم.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/شواشي.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/صفاقس.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/طينة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/عبيدة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/عقارب.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/عوسجة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/عين الخمايسية.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/عين جلولة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/غار الملح.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/غزالة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/غنوش.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/فريانة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/فوسانة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/فوشانة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قابس.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قبلي.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قرطاج.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قرقنة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قرمدة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قصور الساف.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قعفور.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/قفصة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/كتانة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/كركر.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/كسرى.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/كندار.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/لالة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/ماجل بلعباس.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مارث.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/ماطر.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مدنين.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مرناق.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مزونة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مساكن.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مطماطة الجديدة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مطماطة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مقرين.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/مكثر.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/ملولش.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل الحبيب.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل المهيري.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل بورقيبة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل بوزيان.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل جميل.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل شاكر.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/منزل عبد الرحمان.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/ميدون.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/نصر الله.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/نعسان.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/هبيرة.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/هرقلة.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/وذرف.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/shapes/municipalities_shapes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/shapes/sectors_shape.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/shapes/sectors_shapes.geojson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/voting-center-data-extractor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data/voting-centers-data-fr-parties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/data_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/controllers/results.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/models/districtResult.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/models/minicipalityShape.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/models/municipalityResult.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/models/sectorShape.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/services/results.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_backend/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_backend/data/shapes-data-complete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_backend/src/models/districtpollingdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_backend/src/models/districtshape.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4585ac13f6783a6fcd5bcd3c9b0fdcc4cfbd3233" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4585ac13f6783a6fcd5bcd3c9b0fdcc4cfbd3233" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e154d2dd4bfe23a7733b0fbceb93f7e0f61c6cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e154d2dd4bfe23a7733b0fbceb93f7e0f61c6cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/699e8b73ceaaa7df0a70c3d5fdbf2559d3d3fd21" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/699e8b73ceaaa7df0a70c3d5fdbf2559d3d3fd21" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e04d912caab36449bca92e143739c83badf88a3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e04d912caab36449bca92e143739c83badf88a3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/5/8/581ab870be2f3ed05868f32b597128c84a6523a0" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/5/8/581ab870be2f3ed05868f32b597128c84a6523a0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/7/8/7836308d8e9327ab4a23cb5b9f91e6a238646c3c" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/7/8/7836308d8e9327ab4a23cb5b9f91e6a238646c3c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/7/d/7d21ffd51156cda69710139ff1dd71c488370fa8" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/7/d/7d21ffd51156cda69710139ff1dd71c488370fa8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/data/polling-data-extractor.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/data/polling-data-extractor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/removing extra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/data/results_per_voting_center/removing extra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/data/voting-centers-data-fr-parties.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/data/voting-centers-data-fr-parties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/data_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/data_init.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/src/controllers/registration.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/controllers/registration.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_backend/src/controllers/results.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/controllers/results.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/src/controllers/shape.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/controllers/shape.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_backend/src/routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/routing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/src/services/registration.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/services/registration.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_backend/src/services/shape.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/new_backend/src/services/shape.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AllCityData/registration/ColumnGenderReg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/registration/ColumnGenderReg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllCityData/registration/MapRegistrationVC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/registration/MapRegistrationVC.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AllCityData/registration/_CityRegistration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/registration/_CityRegistration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AllCityData/result/perList/WaffleChairs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/result/perList/WaffleChairs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AllCityData/turnout/MapTurnout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/turnout/MapTurnout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/stored_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/stored_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/home/RootHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/home/RootHome.js" afterDir="false" />
     </list>
     <ignored path="C:\Users\rafaa\Desktop\Projects\Democracy International\dashbooard_results\public/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -3357,58 +3169,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js">
+        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="6271" column="13" lean-forward="true" selection-start-line="6271" selection-start-column="13" selection-end-line="6271" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/registration/_CityRegistration.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/registration/ColumnGenderReg.js">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/config.js">
+        <entry file="file://$PROJECT_DIR$/src/components/shared/home/RootHome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <element signature="e#205#1314#0" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js">
+        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="772" column="21" lean-forward="true" selection-start-line="772" selection-start-column="21" selection-end-line="772" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/result/perList/WaffleChairs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="298">
+              <caret line="32" column="213" selection-start-line="32" selection-start-column="213" selection-end-line="32" selection-end-column="213" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -3417,43 +3220,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_backend/app.js">
+        <entry file="file://$PROJECT_DIR$/new_backend/data/global-hierarchy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="14637">
+              <caret line="861" column="34" selection-start-line="861" selection-start-column="34" selection-end-line="861" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/new_backend/globals.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locales/en.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locales/fr.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2006">
+              <caret line="139" column="85" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shared/stored_data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AllCityData/turnout/MapTurnout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#220#270#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3470,7 +3274,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>kairouan</find>
       <find>registration_clean_gov_en</find>
       <find>&quot;municipalities&quot;</find>
       <find>too</find>
@@ -3479,6 +3282,12 @@
       <find>console.log</find>
       <find>console</find>
       <find>state.general_results</find>
+      <find>kairouan</find>
+      <find>sidi aich</find>
+      <find>sidi ai</find>
+      <find>reset</find>
+      <find>midoun</find>
+      <find>Turnout</find>
     </findStrings>
     <replaceStrings>
       <replace>gov_fr</replace>
@@ -3502,28 +3311,31 @@
         <option value="$PROJECT_DIR$/new_backend/app.js" />
         <option value="$PROJECT_DIR$/new_backend/src/routing.js" />
         <option value="$PROJECT_DIR$/new_backend/data/registration_data.json" />
-        <option value="$PROJECT_DIR$/locales/en.js" />
         <option value="$PROJECT_DIR$/locales/fr.js" />
         <option value="$PROJECT_DIR$/locales/ar.js" />
         <option value="$PROJECT_DIR$/src/components/config.js" />
         <option value="$PROJECT_DIR$/_gitignore" />
         <option value="$PROJECT_DIR$/src/components/shared/stored_data.js" />
-        <option value="$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js" />
-        <option value="$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/AllCityData/result/perList/WaffleChairs.js" />
-        <option value="$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js" />
         <option value="$PROJECT_DIR$/src/components/AllCityData/registration/ColumnGenderReg.js" />
         <option value="$PROJECT_DIR$/src/components/AllCityData/turnout/MapTurnout.js" />
         <option value="$PROJECT_DIR$/src/components/AllCityData/registration/_CityRegistration.js" />
+        <option value="$PROJECT_DIR$/src/components/AllCityData/registration/MapRegistrationVC.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js" />
+        <option value="$PROJECT_DIR$/locales/en.js" />
+        <option value="$PROJECT_DIR$/src/components/shared/home/RootHome.js" />
+        <option value="$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js" />
+        <option value="$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js" />
+        <option value="$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3542,27 +3354,17 @@
             <path>
               <item name="dashbooard_results" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashbooard_results" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="locales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashbooard_results" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashbooard_results" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashbooard_results" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashbooard_results" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashbooard_results" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashbooard_results" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AllCityData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashbooard_results" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashbooard_results" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3650,7 +3452,14 @@
       <workItem from="1562260902936" duration="592000" />
       <workItem from="1562321448361" duration="4207000" />
       <workItem from="1562515855263" duration="8108000" />
-      <workItem from="1562584183822" duration="1638000" />
+      <workItem from="1562584183822" duration="1969000" />
+      <workItem from="1562676356142" duration="1338000" />
+      <workItem from="1562940305962" duration="6313000" />
+      <workItem from="1563019362445" duration="57000" />
+      <workItem from="1563183219056" duration="1248000" />
+      <workItem from="1564403709113" duration="743000" />
+      <workItem from="1564413823663" duration="83000" />
+      <workItem from="1564482776673" duration="4213000" />
     </task>
     <task id="LOCAL-00001" summary="Feed Database with registration data">
       <created>1562099671741</created>
@@ -3666,16 +3475,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562183270694</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="voting centers data">
+      <created>1562587198517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562587198517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51605000" />
+    <option name="totallyTimeSpent" value="65931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29166666" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29166666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -3688,9 +3505,9 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="bottom" id="Statistic" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.50403225" side_tool="true" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.50739247" side_tool="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.32841823" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49596775" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49260753" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49798387" weight="0.3293011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -3705,7 +3522,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feed Database with registration data" />
     <MESSAGE value="create select municipalities" />
-    <option name="LAST_COMMIT_MESSAGE" value="create select municipalities" />
+    <MESSAGE value="voting centers data" />
+    <option name="LAST_COMMIT_MESSAGE" value="voting centers data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/datasport" />
@@ -3716,13 +3534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -3757,13 +3568,6 @@
     <entry file="file://$PROJECT_DIR$/src/history.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_backend/globals.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_backend/src/controllers/shape.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -3788,44 +3592,10 @@
     <entry file="file://$PROJECT_DIR$/new_backend/src/services/shape.service.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/locales/fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locales/ar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locales/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/shared/home/RootHome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3864,16 +3634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AllCityData/result/perList/_ResultsPerList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -3896,13 +3656,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AllCityData/registration/ColumnGenderReg.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -3931,23 +3684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_backend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/shared/stored_data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -3966,17 +3702,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/registration/_CityRegistration.js">
+    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/registration/MapRegistrationVC.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="221">
+          <caret line="290" column="65" lean-forward="true" selection-start-line="290" selection-start-column="65" selection-end-line="290" selection-end-column="65" />
+          <folding>
+            <element signature="e#220#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/RootAllCityData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_backend/data/global-hierarchy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14637">
+          <caret line="861" column="34" selection-start-line="861" selection-start-column="34" selection-end-line="861" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_backend/globals.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locales/fr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/municipalitySelection/municipalitySelection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="139" column="85" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/shared/home/RootHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AllCityData/general_results_per_mun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="772" column="21" lean-forward="true" selection-start-line="772" selection-start-column="21" selection-end-line="772" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="6271" column="13" lean-forward="true" selection-start-line="6271" selection-start-column="13" selection-end-line="6271" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AllCityData/turnout/_CityTurnout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="32" column="213" selection-start-line="32" selection-start-column="213" selection-end-line="32" selection-end-column="213" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

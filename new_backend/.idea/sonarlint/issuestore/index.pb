@@ -57,3 +57,13 @@ T
 $data/voting-center-data-extractor.js,4\6\46aa644cc9d12a03822791e8cf3a108d9bf549c8
 X
 (data/voting-centers-data-fr-parties.json,1\c\1c40390a2b9d8f2f71a69ddfd4c1a01a3c1a8f20
+G
+data/parties-names.json,0\7\0797519d7406c9b48ef2b279a49e00fd69b09f99
+R
+"data/Parties-name-translator.ipynb,4\f\4fa405fba8bb14ff3cdfaf5c66198017ef51490d
+Q
+!src/models/districtpollingdata.js,c\b\cbcf4b9e22f979b0852e47015cf39527d6ce8542
+U
+%src/controllers/results.controller.js,c\7\c7db6e70b8e78a336f81a497a479f840f25bc558
+L
+data/shapes-data-complete.js,e\a\ea877a09e6617b767d5ef73b577fa1709b02a5dd

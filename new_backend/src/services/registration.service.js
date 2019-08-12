@@ -1,6 +1,6 @@
 const fs=require('fs');
 const Registration = require('../models/registration.model').model
-
+const DistrictPollingData = require('../models/districtpollingdata').model
 const MIXED_CLEAN = [
     {
         "gov_fr": "Kasserine",
@@ -6310,6 +6310,12 @@ module.exports = {
             console.log(munNameFr)
             Registration.find({mun_fr: munNameFr}).then(result => resolve(result)).catch(err => reject(err));
         })
+    },
+    getPollingDataByMunName:function(munName){
+        return new Promise((resolve,reject)=>{
+            DistrictPollingData.findOne({nameEN:munName},{pollingData:1}).then(r=>resolve(r))
+        })
+
     },
     pushPollingDataToDb:function(){
         RG = JSON.parse(fs.readFileSync('data/registration raw.json')).dataroot.registration;

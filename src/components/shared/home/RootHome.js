@@ -49,7 +49,7 @@ export default class RootHome extends Component {
           <div className='row col-md-12' style={{zIndex:this.state.mapZIndex}} >
             <Card img="card1.jpg" redirectLink="/sport-infra-tunis" title={TITLECARD} description={DESC_CARD} />
             <Card img="card2.jpg" redirectLink="/voting-center" title={TITLECARD2} description={DESC_CARD2} />
-            <Card img="card2.jpg" redirectLink="/kairouan" title={TITLECARD3} description={DESC_CARD3} />
+            <Card img="card2.jpg" redirectLink="/municipality-selection" title={TITLECARD3} description={DESC_CARD3} />
             {/* <Card img="card2.jpg" redirectLink="/participation-gov-level" title={TITLECARD3} description={DESC_CARD3} /> */}
 
           </div>

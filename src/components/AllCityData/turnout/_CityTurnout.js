@@ -20,7 +20,7 @@ export default class CityTurnout extends Component {
         const VALID_VOTES = <Translate type='text' content='cityResultsList.validVotes' />//c
         const REG_NUMBER = <Translate type='text' content='cityData.regnumber' />//
         const Invalid_votes = <Translate type='text' content='cityTurnoutList.Invalid_votes' />//
-
+        console.log(this.props.m)
         return (
             <div >
                 
@@ -30,7 +30,7 @@ export default class CityTurnout extends Component {
                                 <Rectangle value={general_results_per_mun[this.props.municipalityName].REG_NUMBER} title={REG_NUMBER} />
                                 <Rectangle value={general_results_per_mun[this.props.municipalityName].VALID_VOTES} title={VALID_VOTES} />
                                 <Rectangle value={general_results_per_mun[this.props.municipalityName].Invalid_votes}  title={Invalid_votes} />
-                                <Rectangle value={general_results_per_mun[this.props.municipalityName].TURNOUT}  title={TURNOUT} />
+                                <Rectangle value={(Math.floor(100 * general_results_per_mun[this.props.municipalityName].total_vote / general_results_per_mun[this.props.municipalityName].REG_NUMBER)).toString()+"%"}  title={TURNOUT} />
                             </div>
                         </div>
                         <MapTurnout

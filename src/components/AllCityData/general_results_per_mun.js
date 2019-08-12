@@ -4332,7 +4332,7 @@ var general_results_per_mun =
             "SEATS": "18",
             "LIST_NUMBER": "8"
         },
-        "midoun": {
+        "djerba midoun": {
             "gov_fr": "Medenine",
             "mun_name1": "ميدون",
             "lon": "10.9546891428571",

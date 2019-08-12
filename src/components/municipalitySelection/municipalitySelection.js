@@ -41,7 +41,9 @@ class MunicipalitySelection extends Component {
             }
         }
         this.geoJsonLayer = React.createRef()
+        this.govShapes = null;
     }
+
 
 
     componentWillMount() {
@@ -59,6 +61,7 @@ class MunicipalitySelection extends Component {
             this.setState({
                 shape: data.data.shape
             });
+            this.govShapes = data.data.shape
         })
     }
 
@@ -103,7 +106,7 @@ class MunicipalitySelection extends Component {
                 }
 
             });
-        else{
+        else {
             this.setState({
                 selectedMun: {
                     nameEN: properties.LABEL,
@@ -127,17 +130,30 @@ class MunicipalitySelection extends Component {
             weight: 1
         });
     }
-
-    selectGov(e) {
-        let govName = e.target.feature.properties.gouv_name
-        console.log(e.target.feature.properties.gouv_name)
-        let govData = stored_data.globalHierarchy.find(e => e.nameEN == govName)
+    resetMap(){
         this.setState({
-            selectionMode: 'municipality',
-            center: govData.coordinates,
-            zoom: govData.zoom
+            selectionMode: 'gov',
+            center: stored_data.tunisiacoordinates,
+            zoom: 7,
+            shape: this.govShapes
         })
-        this.getMunicipalitiesShapes(govName);
+        this.geoJsonLayer.current.leafletElement.clearLayers().addData(this.govShapes);
+    }
+    selectArea(e) {
+        if (this.state.selectionMode === 'gov') {
+            let govName = e.target.feature.properties.gouv_name
+            console.log(e.target.feature.properties.gouv_name)
+            let govData = stored_data.globalHierarchy.find(e => e.nameEN == govName)
+            this.setState({
+                selectionMode: 'municipality',
+                center: govData.coordinates,
+                zoom: govData.zoom
+            })
+            this.getMunicipalitiesShapes(govName);
+        }else{
+            let munName = e.target.feature.properties.LABEL.toString().toLowerCase();
+            window.location="/municipalityDetails/"+munName;
+        }
     }
 
     getColorRegElg(d, c1, grades) {
@@ -226,14 +242,14 @@ class MunicipalitySelection extends Component {
                                         (feature, layer) => {
                                             layer.on({mouseover: this.highlightFeature.bind(this)});
                                             layer.on({mouseout: this.resetFeature.bind(this)});
-                                            layer.on({'click': this.selectGov.bind(this)})
+                                            layer.on({'click': this.selectArea.bind(this)})
                                         }
                                     }
                                 >
                                     <Tooltip>
                                         <div>
-                                            {this.state.selectionMode==='gov'?
-                                            <h4 style={{textAlign: 'center'}}>{this.state.selectedGov.nameEN} - {this.state.selectedGov.nameAR}</h4>:
+                                            {this.state.selectionMode === 'gov' ?
+                                                <h4 style={{textAlign: 'center'}}>{this.state.selectedGov.nameEN} - {this.state.selectedGov.nameAR}</h4> :
                                                 <h4 style={{textAlign: 'center'}}>{this.state.selectedMun.nameEN} - {this.state.selectedMun.nameAR}</h4>
                                             }
                                         </div>
@@ -256,21 +272,12 @@ class MunicipalitySelection extends Component {
                                 </LayersControl>
 
 
-                                <Control position="bottomright">
-                                    <div className="info legend">
-                                        <p style={{marginLeft: "10px"}}>{TURNOUT}</p>
-                                        <div><i style={{background: '#ffff9c'}}></i>0% - 15%<br/></div>
-                                        <div><i style={{background: '#c2e699'}}></i>15% - 20%<br/></div>
-                                        <div><i style={{background: '#78c679'}}></i>20% - 30%<br/></div>
-                                        <div><i style={{background: '#238443'}}></i>+30%<br/></div>
-                                    </div>
-                                </Control>
                                 <Control>
                                     <div>
                                         <h5>Zoom: <b> {this.state.zoom}</b></h5>
                                         <button
                                             className='simpleButton'
-                                            //onClick={this.resetMap.bind(this)}
+                                            onClick={this.resetMap.bind(this)}
                                         >
                                             Reset
                                         </button>

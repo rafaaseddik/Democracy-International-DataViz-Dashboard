@@ -14,6 +14,7 @@ router.get('/getAllGovsShape',(req,res)=>{
 });
 router.get('/getMunicipalitiesShapeByGovName',(req,res)=>{
     let govName = req.query.govName;
+
     shapeService.getMunicipalitiesShapeByGovName(govName).then(municipalities=>{
         res.json({
             status:200,
@@ -33,8 +34,16 @@ router.get('/getMunicipalitiesShapeByGovName',(req,res)=>{
 })
 router.get('/sectors', (req, res) => {
     let municipalityName = req.query.municipalityName;
+    municipalityName = municipalityName.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
     console.info("[SHAPE] getting shapes for " + municipalityName);
     //res.json({"_id":"5c46d5c094706213cf5955a8","data":[{ "total_votes": "19746", "Type de liste (fr)": "Liste de coalition", "nom_liste_fr": "Union Civile", "nom_liste_ar": "الإتحاد المدني", "votes_obtenus": "1466", "porcentage_obtenus": "0.077978723", "sieges_obtenus": "3", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste de coalition", "nom_liste_fr": "Front Populaire", "nom_liste_ar": "الجبھة الشعبیة", "votes_obtenus": "974", "porcentage_obtenus": "0.051808511", "sieges_obtenus": "2", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste indépendante", "nom_liste_fr": "Akhyar Altayar", "nom_liste_ar": "أخیار التیار", "votes_obtenus": "426", "porcentage_obtenus": "0.022659574", "sieges_obtenus": "0", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste indépendante", "nom_liste_fr": "Li'Ihya' Alkayrawan", "nom_liste_ar": "لإحیاء القیروان", "votes_obtenus": "1242", "porcentage_obtenus": "0.06606383", "sieges_obtenus": "2", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste indépendante", "nom_liste_fr": "Min Ajl Alqayrawan", "nom_liste_ar": "من أجل القیروان", "votes_obtenus": "723", "porcentage_obtenus": "0.038457447", "sieges_obtenus": "1", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste partisane", "nom_liste_fr": "Courant Démocrate", "nom_liste_ar": "التیار الدمقراطي", "votes_obtenus": "1555", "porcentage_obtenus": "0.082712766", "sieges_obtenus": "3", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste partisane", "nom_liste_fr": "AL IRADA", "nom_liste_ar": "حراك تونس الارادة", "votes_obtenus": "1348", "porcentage_obtenus": "0.071702128", "sieges_obtenus": "3", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste partisane", "nom_liste_fr": "Nidaa Tounes", "nom_liste_ar": "حركة نداء تونس", "votes_obtenus": "3504", "porcentage_obtenus": "0.186382979", "sieges_obtenus": "7", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }, { "total_votes": "19746", "Type de liste (fr)": "Liste partisane", "nom_liste_fr": "Ennahdha", "nom_liste_ar": "حزب حركة النھضة", "votes_obtenus": "7562", "porcentage_obtenus": "0.402234043", "sieges_obtenus": "15", "total_inscrits": "71387", "votes_nul": "636", "votes_blancs": "310", "total_votes_valide": "18800" }],"name":"kairouan_results per list","__v":0})
+    shapeService.getSectorsShapeByMunicipalityName(municipalityName).then(result=>{
+        res.json({
+            status:200,
+            data:result
+        })
+    })
+    return ;
     res.json(
         {
             "_id": "5c45cf5e94706213cf5955a3",
@@ -52,7 +61,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 3245,
+                        "population": 0,//3245,
                         "registered_sum": 531,
                         "reg_18_24": 39,
                         "reg_25_35": 165,
@@ -84,7 +93,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 12495,
+                        "population": 0,//12495,
                         "registered_sum": 5672,
                         "reg_18_24": 513,
                         "reg_25_35": 1590,
@@ -116,7 +125,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 1808,
+                        "population": 0,//1808,
                         "registered_sum": 0,
                         "reg_18_24": 0,
                         "reg_25_35": 0,
@@ -148,7 +157,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 6727,
+                        "population": 0,//6727,
                         "registered_sum": 2083,
                         "reg_18_24": 155,
                         "reg_25_35": 517,
@@ -180,7 +189,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 6089,
+                        "population": 0,//6089,
                         "registered_sum": 2574,
                         "reg_18_24": 192,
                         "reg_25_35": 669,
@@ -212,7 +221,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 4915,
+                        "population": 0,//4915,
                         "registered_sum": 3533,
                         "reg_18_24": 296,
                         "reg_25_35": 818,
@@ -244,7 +253,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 8655,
+                        "population": 0,//8655,
                         "registered_sum": 4441,
                         "reg_18_24": 361,
                         "reg_25_35": 1086,
@@ -276,7 +285,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 4975,
+                        "population": 0,//4975,
                         "registered_sum": 0,
                         "reg_18_24": 0,
                         "reg_25_35": 0,
@@ -308,7 +317,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 21624,
+                        "population": 0,//21624,
                         "registered_sum": 13500,
                         "reg_18_24": 1129,
                         "reg_25_35": 3431,
@@ -340,7 +349,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 4216,
+                        "population": 0,//4216,
                         "registered_sum": 1624,
                         "reg_18_24": 127,
                         "reg_25_35": 356,
@@ -372,7 +381,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 4774,
+                        "population": 0,//4774,
                         "registered_sum": 1348,
                         "reg_18_24": 138,
                         "reg_25_35": 352,
@@ -404,7 +413,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 12161,
+                        "population": 0,//12161,
                         "registered_sum": 4581,
                         "reg_18_24": 404,
                         "reg_25_35": 1067,
@@ -436,7 +445,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 7298,
+                        "population": 0,//7298,
                         "registered_sum": 3444,
                         "reg_18_24": 221,
                         "reg_25_35": 767,
@@ -468,7 +477,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 2427,
+                        "population": 0,//2427,
                         "registered_sum": 815,
                         "reg_18_24": 81,
                         "reg_25_35": 200,
@@ -500,7 +509,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 20089,
+                        "population": 0,//20089,
                         "registered_sum": 6178,
                         "reg_18_24": 541,
                         "reg_25_35": 1661,
@@ -532,7 +541,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 14564,
+                        "population": 0,//14564,
                         "registered_sum": 10470,
                         "reg_18_24": 932,
                         "reg_25_35": 2492,
@@ -564,7 +573,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 1,
                         "non_communal": 0,
-                        "population": 23615,
+                        "population": 0,//23615,
                         "registered_sum": 9257,
                         "reg_18_24": 712,
                         "reg_25_35": 2450,
@@ -596,7 +605,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Nord",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 1117,
+                        "population": 0,//1117,
                         "registered_sum": 420,
                         "reg_18_24": 37,
                         "reg_25_35": 114,
@@ -628,7 +637,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 2943,
+                        "population": 0,//2943,
                         "registered_sum": 737,
                         "reg_18_24": 63,
                         "reg_25_35": 187,
@@ -660,7 +669,7 @@ router.get('/sectors', (req, res) => {
                         "NomDelegat": "Kairouan_Sud",
                         "communal": 0,
                         "non_communal": 1,
-                        "population": 2024,
+                        "population": 0,//2024,
                         "registered_sum": 303,
                         "reg_18_24": 21,
                         "reg_25_35": 73,

@@ -10,8 +10,9 @@ const resultsService = require('../services/results.service')
 router.get('/resultsData', (req, res) => {
     let municipalityName = req.query.municipalityName;
     //capitalize it
-    municipalityName = municipalityName.charAt(0).toUpperCase() + municipalityName.slice(1);
+    municipalityName = municipalityName.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
     console.info("[REGISTRATION] getting municipality results data for " + municipalityName);
+
     resultsService.getMunicipalityResultByMunicipalityName(municipalityName).then(result=>{
         res.json({
             status:200,

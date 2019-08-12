@@ -8,6 +8,6 @@ module.exports={
         //shapeService.pushSectorsDataToDB();
         //resultsService.extractResultPerVotingCenterFromExcel();
         //resultsService.pushMunicipalityResultToDB();
-        registrationService.pushPollingDataToDb();
+        //registrationService.pushPollingDataToDb();
     }
 };

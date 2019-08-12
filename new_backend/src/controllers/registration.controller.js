@@ -6,11 +6,20 @@ const registrationService = require('../services/registration.service')
 
 router.get('/pollingData', (req, res) => {
     let municipalityName = req.query.municipalityName;
+    municipalityName = municipalityName.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
     console.info("[REGISTRATION] getting polling centers data for " + municipalityName);
+    registrationService.getPollingDataByMunName(municipalityName).then(data=>{
+        res.json({
+            status:200,
+            data:data
+        })
+    });
+    return;
     res.json(
         {
             "_id": "5c46d5dc94706213cf5955a9",
-            "data": [{
+            "data": [
+                {
                 "not_useful": "514",
                 "f_p51": "605",
                 "m_p51": "702",
@@ -40,7 +49,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "8",
                 "tayar": "96",
                 "ihyee_kairouan": "57"
-            }, {
+            },
+                {
                 "not_useful": "123",
                 "f_p51": "127",
                 "m_p51": "182",
@@ -70,7 +80,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "12",
                 "tayar": "27",
                 "ihyee_kairouan": "16"
-            }, {
+            },
+                {
                 "not_useful": "341",
                 "f_p51": "354",
                 "m_p51": "494",
@@ -100,7 +111,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "12",
                 "tayar": "90",
                 "ihyee_kairouan": "41"
-            }, {
+            },
+                {
                 "not_useful": "268",
                 "f_p51": "387",
                 "m_p51": "502",
@@ -130,7 +142,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "2",
                 "tayar": "53",
                 "ihyee_kairouan": "34"
-            }, {
+            },
+                {
                 "not_useful": "286",
                 "f_p51": "436",
                 "m_p51": "581",
@@ -160,7 +173,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "15",
                 "tayar": "74",
                 "ihyee_kairouan": "55"
-            }, {
+            },
+                {
                 "not_useful": "31",
                 "f_p51": "59",
                 "m_p51": "92",
@@ -190,7 +204,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "2",
                 "tayar": "3",
                 "ihyee_kairouan": "6"
-            }, {
+            },
+                {
                 "not_useful": "138",
                 "f_p51": "226",
                 "m_p51": "377",
@@ -220,7 +235,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "18",
                 "tayar": "10",
                 "ihyee_kairouan": "17"
-            }, {
+            },
+                {
                 "not_useful": "91",
                 "f_p51": "344",
                 "m_p51": "364",
@@ -250,7 +266,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "7",
                 "tayar": "40",
                 "ihyee_kairouan": "12"
-            }, {
+            },
+                {
                 "not_useful": "65",
                 "f_p51": "108",
                 "m_p51": "121",
@@ -280,7 +297,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "1",
                 "tayar": "9",
                 "ihyee_kairouan": "8"
-            }, {
+            },
+                {
                 "not_useful": "458",
                 "f_p51": "572",
                 "m_p51": "756",
@@ -310,7 +328,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "4",
                 "tayar": "90",
                 "ihyee_kairouan": "97"
-            }, {
+            },
+                {
                 "not_useful": "445",
                 "f_p51": "734",
                 "m_p51": "788",
@@ -340,7 +359,8 @@ router.get('/pollingData', (req, res) => {
                 "akhyar_el_tayar": "7",
                 "tayar": "90",
                 "ihyee_kairouan": "83"
-            }, {
+            },
+                {
                 "not_useful": "112",
                 "f_p51": "162",
                 "m_p51": "211",
@@ -1193,7 +1213,7 @@ router.get('/pollingData', (req, res) => {
 router.get('/resultsData', (req, res) => {
     let municipalityName = req.query.municipalityName;
     //capitalize it
-    municipalityName = municipalityName.charAt(0).toUpperCase() + municipalityName.slice(1);
+    municipalityName = municipalityName.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
     console.info("[REGISTRATION] getting results data for " + municipalityName);
     res.json(
         {
@@ -1316,7 +1336,7 @@ router.get('/resultsData', (req, res) => {
 router.get('/getDataByMunNameFr', (req, res) => {
     let municipalityName = req.query.municipalityName;
     //capitalize it
-    municipalityName = municipalityName.charAt(0).toUpperCase() + municipalityName.slice(1);
+    municipalityName = municipalityName.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
     registrationService.getDataByMunicipailityNameFr(municipalityName).then(result => {
         if (result.length>0) {
             res.json({

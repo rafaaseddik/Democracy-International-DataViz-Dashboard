@@ -10,6 +10,7 @@ const dataInit = require('./data_init')
 
 var connection = mongoose.connect(Globals.database.url, {useNewUrlParser: true});
 mongoose.Promise = global.Promise;
+global.connection = connection;
 
 
 
@@ -35,9 +36,11 @@ app.use((req, res, next) => {
 app.use(routing);
 
 var port = process.env.PORT || 8081;
+
 app.listen(port, () => {
     console.log('listening on ' + port)
 });
+
 app.get('/',(req,res)=>{
     res.json({
         status:1,

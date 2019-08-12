@@ -53,7 +53,7 @@ module.exports = {
         description1: 'Tunis Municipality',
         title2: 'Voting center location',
         description2: 'Precise locations- missing 310 out of 4553',
-        title3: 'Kairouan Municipality, all data',
+        title3: 'Municipalities data',
         description3: 'Municipal Election results detailed by voting center '
 
     },

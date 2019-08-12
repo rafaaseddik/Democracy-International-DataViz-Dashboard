@@ -39,7 +39,7 @@ export default class RootHome extends Component {
 
     componentWillMount() {
         //get  the city from domain name
-        let municipalityName = (this.props.location.pathname).substring(1);
+        let municipalityName = (this.props.match.params.munName);
         //Load the shapefile
         let qString2 = `${config.localApiUrl}/api/shape/sectors?municipalityName=${municipalityName}`;
         //let qString = `${config.apiUrl}/api/shape/${municipalityName}_sectors`;
@@ -75,8 +75,8 @@ export default class RootHome extends Component {
             },
         })
             .then(response => {
-                console.debug('_d_reg_data----', response.data.data);
-                this.setState({registrationData: response.data.data});
+                console.debug('_d_reg_data----', response.data.data.pollingData);
+                this.setState({registrationData: response.data.data.pollingData});
             })
             .catch(function (error) {
 

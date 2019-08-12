@@ -12,7 +12,7 @@ export default class MapRegistrationVC extends Component {
     constructor(props) {
         super(props);
         this.state = ({
-            center: [general_results_per_mun[this.props.municipalityName].lat, general_results_per_mun[this.props.municipalityName].lon],
+            center: [parseFloat(general_results_per_mun[this.props.municipalityName].lat), parseFloat(general_results_per_mun[this.props.municipalityName].lon)],
             zoom: 11, markerpos: [], totalRegistration: 0, VcCheckbox: true,
             districtName: '', pollingCenterNumber: 0, registrationShare: 0, registrationNumber: 0,
             checked: [true, false, false, false, false], filter: 'allVC'

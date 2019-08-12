@@ -97,3 +97,62 @@ A
 _gitignore,0\5\0585d98c4ab51a5ed8c01705763e736d679fc093
 >
 _gitattributes,d\1\d110d967f6042c816608c51d8ec946122711f1a6
+ç
+]new_backend/data/results_per_voting_center/.ipynb_checkpoints/removing extra-checkpoint.ipynb,4\4\442c9573d47fa8edb964169c2cc7fc078da77f76
+ï
+enew_backend/data/results_per_voting_center/.ipynb_checkpoints/voting data extraction-checkpoint.ipynb,c\7\c7fcbb28ff2926174a809316aca322797ead337e
+o
+?new_backend/data/results_per_voting_center/removing extra.ipynb,a\d\ad92712420e093de2149fa3d408f78dd21312231
+w
+Gnew_backend/data/results_per_voting_center/voting data extraction.ipynb,5\a\5ac14ce69a9d93e4dc0504546f289a39d045238d
+b
+2new_backend/data/shapes/municipalities_shapes.json,d\5\d5c75df314717c97e89c9d95c5aecbaae5b71d03
+Z
+*new_backend/data/shapes/sectors_shape.json,5\c\5cdcc99a9ae5229859aae53e05d7b52a79e876c4
+^
+.new_backend/data/shapes/sectors_shapes.geojson,5\9\590520794c2b74790f5b78084983771539006299
+T
+$new_backend/data/global-hierarchy.js,d\7\d7e8cc5b92fea033cf3620c590a145a18ea55449
+\
+,new_backend/data/mixed-clean-json-creator.js,f\8\f86f7f9075b42619317cc3caf444ddbd94acdef9
+S
+#new_backend/data/parties-names.json,0\7\07c812fcdca9616bc694d082c06720c51041e056
+Z
+*new_backend/data/polling-data-extractor.js,9\7\9702963f5bdf337381fd1673cb48c7fb8130ea4d
+Q
+!new_backend/data/raw results.json,6\2\62a6e4c59be9d258c6ab720e8273dc68bf146fb9
+Y
+)new_backend/data/result-data-extractor.js,7\4\749c35bdfa1f567d1849d9d405c2dd71585177df
+`
+0new_backend/data/voting-center-data-extractor.js,2\8\28a381a91405f59bd669ab86a1cf10aa85d2f336
+d
+4new_backend/data/voting-centers-data-fr-parties.json,c\e\ce4d3c37724b06801c3c596418d40ff897debdeb
+Y
+)new_backend/data/voting-centers-data.json,a\e\ae2cc0a0ea6a701c290562b9605a55fd9d1b8b80
+a
+1new_backend/src/controllers/results.controller.js,4\5\456623a3f66e26e5b20f14c37fb0f8a7ec5a7916
+^
+.new_backend/src/models/districtResult.model.js,4\2\42b4afc43c7250f574aab2dcb4bd29407b1dca47
+a
+1new_backend/src/models/minicipalityShape.model.js,4\7\47545e7e3b514dafe2730516a84c656bf4152e72
+b
+2new_backend/src/models/municipalityResult.model.js,e\a\ea7756f3a147bf5de3ce5e41680fedc1bfb57f24
+[
++new_backend/src/models/sectorShape.model.js,f\6\f6e9831f1289c037fb49320402dc70e286c0ba99
+[
++new_backend/src/services/results.service.js,7\d\7dda7293104062c4803e95b07359fd5d2ea12585
+H
+new_backend/src/utils.js,9\2\924d8fb99023c87588945aee613c629167640ed5
+H
+new_backend/data_init.js,0\5\05372a762dc8fd897c4b2b67fe0d1460e8ccde2c
+F
+new_backend/mixed.json,0\b\0b280449739fa9510bc8169d7820fa565697af31
+H
+new_backend/sectors.json,8\4\848815c25da02baa208a233cc73b1d0d59ab0344
+j
+:src/components/AllCityData/registration/ColumnGenderReg.js,e\9\e95e4ef31022a13593ddb465b7310ce74646b0eb
+i
+9src/components/AllCityData/result/perList/WaffleChairs.js,8\3\839836342da4c223033cbdf6a5742407e26fde58
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

@@ -1,5 +1,6 @@
 const fs = require('fs')
 const MunicipalityShape = require("../models/minicipalityShape.model").model
+const DistrictShape = require('../models/districtshape.model').model
 const SectorShape = require("../models/sectorShape.model").model
 const globalHierarchy = require('../../data/global-hierarchy').globalHierarchy
 let similarity = require('../utils.js').similarity
@@ -35,7 +36,7 @@ module.exports = {
     },
     getSectorsShapeByMunicipalityName:function(munName){
         return new Promise((resolve,reject)=>{
-            SectorShape.find({
+            DistrictShape.find({
                 'properties.mun_en':munName
             }).then(result=>resolve(result)).catch(err=>reject(err));
         })
@@ -56,22 +57,32 @@ module.exports = {
         let total_districts = 0;
         shapes_json.forEach(sector=>{
             let sectorName = sector.properties.name_ar;
+            let delegationName = sector.properties.NomDelegat
             let found =false;
             total_districts = 0;
             globalHierarchy.forEach(gov=>{
                 gov.municipalities.forEach(mun=>{
-                    mun.districts.forEach(distr=>{
-                        if(distr==sectorName){
-                            found=true;
-                            sector.properties.mun_ar = mun.nameAR;
-                            sector.properties.mun_en = mun.nameEN;
-                            sector.properties.gov_ar = gov.nameAR;
-                            sector.properties.gov_en = gov.nameEN;
-                            let newSector = new SectorShape(sector);
-                            newSector.save();
-                            
-                        }
-                        else{/*
+                    if(similarity(mun.nameEN,delegationName)>0.9){
+                        found=true;
+                        sector.properties.mun_ar = mun.nameAR;
+                        sector.properties.mun_en = mun.nameEN;
+                        sector.properties.gov_ar = gov.nameAR;
+                        sector.properties.gov_en = gov.nameEN;
+                        let newSector = new SectorShape(sector);
+                        newSector.save();
+                    }else{
+                        mun.districts.forEach(distr=>{
+                            if(distr==sectorName){
+                                found=true;
+                                sector.properties.mun_ar = mun.nameAR;
+                                sector.properties.mun_en = mun.nameEN;
+                                sector.properties.gov_ar = gov.nameAR;
+                                sector.properties.gov_en = gov.nameEN;
+                                let newSector = new SectorShape(sector);
+                                newSector.save();
+
+                            }
+                            else{/*
                             let levenshteinDistance = similarity(distr,sectorName)
                             if(levenshteinDistance>0.8 &&
                                 (
@@ -81,8 +92,10 @@ module.exports = {
                                 ) ){
                                 console.log(distr+"\n"+sectorName+"\n-"+mun.nameAR+"--"+gov.nameAR+"\n\n")
                             }*/
-                        }
-                    });
+                            }
+                        });
+                    }
+
 
 
                     total_districts+= mun.districts.length
