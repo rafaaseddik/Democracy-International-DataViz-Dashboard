@@ -7,7 +7,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --content-base public/",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "build": "react-scripts build"
   },
   "author": "Abderrahmen Gharsallah",
   "license": "MIT",
@@ -61,6 +62,18 @@
   "babel": {
     "presets": [
       "react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

@@ -42,10 +42,10 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: [
-        "style-loader",
-        "css-loader"
+          "style-loader",
+          "css-loader"
         ]
-        },
+      },
 
     ],
   },
