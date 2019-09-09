@@ -9,6 +9,8 @@ import CouncilDetail from './result/councilDetail/_CouncilDetail';
 import axios from 'axios';
 import config from '../config'
 import general_results_per_mun from "./general_results_per_mun";
+import ExcelService from "../../services/excel.service";
+
 
 export default class RootHome extends Component {
     constructor(props) {
@@ -40,6 +42,10 @@ export default class RootHome extends Component {
     componentWillMount() {
         //get  the city from domain name
         let municipalityName = (this.props.match.params.munName);
+        if(!general_results_per_mun[municipalityName]){
+            window.location="/municipality-not-found";
+        }
+        this.setState({general_results:general_results_per_mun[municipalityName]});
         //Load the shapefile
         let qString2 = `${config.localApiUrl}/api/shape/sectors?municipalityName=${municipalityName}`;
         //let qString = `${config.apiUrl}/api/shape/${municipalityName}_sectors`;
@@ -121,6 +127,10 @@ export default class RootHome extends Component {
         this.setState({chosenViz: e})
     }
 
+    exportData(){
+        ExcelService.exportCityData(this.state.registrationData,this.state.resultsData,this.state.general_results,this.state.municipalityName);
+    }
+
     render() {
         let menuStyle = '';
         this.state.menuStyle ? menuStyle = '' : menuStyle = 'nav-active';
@@ -164,6 +174,9 @@ export default class RootHome extends Component {
                                     null
                             )))
                 }
+                    <div className="col-12 text-center" style={{paddingBottom:"15px"}}>
+                        <button className="btn btn-dark mb-5" onClick={()=>this.exportData()}>EXPORT DATA</button>
+                    </div>
 
             </section>
         );

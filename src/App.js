@@ -10,6 +10,7 @@ import About from './components/shared/About' ;
 import Contact from './components/shared/Contact' ;
 import counterpart  from 'counterpart';
 import MunicipalitySelection from "./components/municipalitySelection/municipalitySelection";
+import RootCityNotFound from "./components/AllCityData/RootCityNotFound";
 counterpart.registerTranslations('en',require('./../locales/en'));
 counterpart.registerTranslations('fr',require('./../locales/fr'));
 counterpart.registerTranslations('ar',require('./../locales/ar'));
@@ -21,6 +22,7 @@ export default class App extends Component {
       <Route exact path="/" component={RootHome} />
 
       <Route exact path="/municipality-selection" component={MunicipalitySelection} />
+      <Route exact path="/municipality-not-found" component={RootCityNotFound} />
       <Route exact path="/sport-infra-tunis" component={RootSportInfraTunis} />
       <Route exact path="/voting-center" component={RootVotingCenter} />
       <Route exact path="/kairouan" component={RootAllCityData} />
